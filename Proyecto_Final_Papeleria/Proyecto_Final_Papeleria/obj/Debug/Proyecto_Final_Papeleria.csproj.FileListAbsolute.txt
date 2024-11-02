@@ -1,0 +1,10 @@
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.csproj.AssemblyReference.cache
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.Principal.resources
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.Properties.Resources.resources
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.csproj.GenerateResource.cache
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\bin\Debug\Proyecto_Final_Papeleria.exe.config
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\bin\Debug\Proyecto_Final_Papeleria.exe
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\bin\Debug\Proyecto_Final_Papeleria.pdb
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.exe
+C:\Users\eduar\Documents\todo\trabajos 5B\Programacion\parcial3\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.pdb
