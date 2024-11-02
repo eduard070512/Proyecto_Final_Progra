@@ -14,11 +14,11 @@ namespace Proyecto_Final_Papeleria
     {
         public Principal()
         {
-            InitializeComponent()
+            InitializeComponent();
         }
         private void Principal_Load(object sender, EventArgs e)
         {
-            jhgjhgjkkjhfhkgfkhgfkhgfkhgfkghfkhgf
+            MessageBox.Show("este se subira");
         }
     }
 }
