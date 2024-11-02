@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\proyecto_final_papeleria\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+=======
+      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|c:\\users\\eduar\\onedrive\\documents\\github\\proyecto_final_progra\\proyecto_final_papeleria\\proyecto_final_papeleria\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+>>>>>>> a38c0f03809b244eabf4c3868e4f4065578a36be
       "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,9 +32,15 @@
               "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\Principal.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Principal.cs",
               "RelativeToolTip": "Proyecto_Final_Papeleria\\Principal.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAQAAAAAAAAAAAAgwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T20:22:24.288Z",
+=======
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T20:13:18.699Z",
+>>>>>>> a38c0f03809b244eabf4c3868e4f4065578a36be
               "EditorCaption": ""
             },
             {
@@ -42,7 +52,12 @@
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Principal.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto_Final_Papeleria\\Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-11-02T20:22:22.398Z"
+=======
+              "WhenOpened": "2024-11-02T20:13:15.144Z",
+              "EditorCaption": " [Dise\u00F1o]"
+>>>>>>> a38c0f03809b244eabf4c3868e4f4065578a36be
             }
           ]
         }
