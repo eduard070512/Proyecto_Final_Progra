@@ -59,22 +59,22 @@
             this.panel1.Controls.Add(this.lblusuario);
             this.panel1.Controls.Add(this.lblprimeru);
             this.panel1.Controls.Add(this.lbltitulo);
-            this.panel1.Location = new System.Drawing.Point(128, 41);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(171, 50);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 281);
+            this.panel1.Size = new System.Drawing.Size(479, 345);
             this.panel1.TabIndex = 0;
             // 
             // btniniciars
             // 
             this.btniniciars.Image = ((System.Drawing.Image)(resources.GetObject("btniniciars.Image")));
             this.btniniciars.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btniniciars.Location = new System.Drawing.Point(69, 228);
-            this.btniniciars.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btniniciars.Location = new System.Drawing.Point(92, 281);
+            this.btniniciars.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniniciars.Name = "btniniciars";
-            this.btniniciars.Size = new System.Drawing.Size(219, 34);
+            this.btniniciars.Size = new System.Drawing.Size(292, 42);
             this.btniniciars.TabIndex = 9;
-            this.btniniciars.Text = "INICIAR SESION";
+            this.btniniciars.Text = "REGRESAR A INICIAR SESION";
             this.btniniciars.UseVisualStyleBackColor = true;
             this.btniniciars.Visible = false;
             this.btniniciars.Click += new System.EventHandler(this.btniniciars_Click);
@@ -83,30 +83,28 @@
             // 
             this.lblvalidarc.AutoSize = true;
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarc.Location = new System.Drawing.Point(67, 137);
-            this.lblvalidarc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblvalidarc.Location = new System.Drawing.Point(89, 169);
             this.lblvalidarc.Name = "lblvalidarc";
-            this.lblvalidarc.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarc.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarc.TabIndex = 8;
             // 
             // lblvalidarn
             // 
             this.lblvalidarn.AutoSize = true;
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarn.Location = new System.Drawing.Point(67, 79);
-            this.lblvalidarn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblvalidarn.Location = new System.Drawing.Point(89, 97);
             this.lblvalidarn.Name = "lblvalidarn";
-            this.lblvalidarn.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarn.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarn.TabIndex = 7;
             // 
             // btncrearu
             // 
             this.btncrearu.Image = ((System.Drawing.Image)(resources.GetObject("btncrearu.Image")));
             this.btncrearu.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btncrearu.Location = new System.Drawing.Point(69, 184);
-            this.btncrearu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btncrearu.Location = new System.Drawing.Point(92, 226);
+            this.btncrearu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btncrearu.Name = "btncrearu";
-            this.btncrearu.Size = new System.Drawing.Size(219, 34);
+            this.btncrearu.Size = new System.Drawing.Size(292, 42);
             this.btncrearu.TabIndex = 6;
             this.btncrearu.Text = "CREAR USUARIO";
             this.btncrearu.UseVisualStyleBackColor = true;
@@ -114,38 +112,36 @@
             // 
             // txtcontrasena
             // 
-            this.txtcontrasena.Location = new System.Drawing.Point(70, 152);
-            this.txtcontrasena.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtcontrasena.Location = new System.Drawing.Point(93, 187);
+            this.txtcontrasena.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtcontrasena.Name = "txtcontrasena";
-            this.txtcontrasena.Size = new System.Drawing.Size(218, 20);
+            this.txtcontrasena.Size = new System.Drawing.Size(289, 22);
             this.txtcontrasena.TabIndex = 5;
             // 
             // lblcontrasena
             // 
             this.lblcontrasena.AutoSize = true;
-            this.lblcontrasena.Location = new System.Drawing.Point(68, 123);
-            this.lblcontrasena.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblcontrasena.Location = new System.Drawing.Point(91, 151);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(148, 13);
+            this.lblcontrasena.Size = new System.Drawing.Size(183, 16);
             this.lblcontrasena.TabIndex = 4;
             this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA";
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(70, 93);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtusuario.Location = new System.Drawing.Point(93, 114);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(218, 20);
+            this.txtusuario.Size = new System.Drawing.Size(289, 22);
             this.txtusuario.TabIndex = 3;
             this.txtusuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtusuario_KeyPress);
             // 
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.Location = new System.Drawing.Point(68, 63);
-            this.lblusuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblusuario.Location = new System.Drawing.Point(91, 78);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(191, 13);
+            this.lblusuario.Size = new System.Drawing.Size(234, 16);
             this.lblusuario.TabIndex = 2;
             this.lblusuario.Text = "INGRESA EL NOMRBE DE USUARIO";
             // 
@@ -153,10 +149,9 @@
             // 
             this.lblprimeru.AutoSize = true;
             this.lblprimeru.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lblprimeru.Location = new System.Drawing.Point(40, 236);
-            this.lblprimeru.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblprimeru.Location = new System.Drawing.Point(53, 290);
             this.lblprimeru.Name = "lblprimeru";
-            this.lblprimeru.Size = new System.Drawing.Size(333, 26);
+            this.lblprimeru.Size = new System.Drawing.Size(409, 32);
             this.lblprimeru.TabIndex = 1;
             this.lblprimeru.Text = "NOTA: AUN NO SE HAN REGISTRADO USUARIOS.\r\nEL PRIMER USUARIO REGISTRADO SERA EL AD" +
     "MINISTRADOR\r\n";
@@ -167,10 +162,9 @@
             this.lbltitulo.BackColor = System.Drawing.Color.Silver;
             this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(77, 10);
-            this.lbltitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbltitulo.Location = new System.Drawing.Point(103, 12);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(210, 40);
+            this.lbltitulo.Size = new System.Drawing.Size(260, 49);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "REGISTRATE";
             // 
@@ -181,15 +175,15 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

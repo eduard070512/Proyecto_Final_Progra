@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|c:\\users\\eduar\\onedrive\\documents\\github\\proyecto_final_progra\\proyecto_final_papeleria\\proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|c:\\users\\eduar\\onedrive\\documents\\github\\proyecto_final_progra\\proyecto_final_papeleria\\proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|c:\\users\\eduar\\onedrive\\documents\\github\\proyecto_final_progra\\proyecto_final_papeleria\\proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\proyecto_final_papeleria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\proyecto_final_papeleria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|c:\\users\\eduar\\onedrive\\documents\\github\\proyecto_final_progra\\proyecto_final_papeleria\\proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\verificar_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F81B84C5-6061-4688-91F6-0BF6958016E1}|Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria.csproj|solutionrelative:proyecto_final_papeleria\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Verificar_Admin.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Verificar_Admin.cs",
               "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\Verificar_Admin.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Verificar_Admin.cs*",
-              "RelativeToolTip": "Proyecto_Final_Papeleria\\Verificar_Admin.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wCIAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Verificar_Admin.cs",
+              "RelativeToolTip": "Proyecto_Final_Papeleria\\Verificar_Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T22:35:58.894Z",
               "EditorCaption": ""
@@ -55,58 +55,56 @@
               "Title": "Verificar_Admin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Verificar_Admin.cs",
               "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\Verificar_Admin.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Verificar_Admin.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Proyecto_Final_Papeleria\\Verificar_Admin.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Verificar_Admin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Final_Papeleria\\Verificar_Admin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T22:30:29.656Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "iniciarsesion.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\iniciarsesion.cs",
               "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\iniciarsesion.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\iniciarsesion.cs*",
-              "RelativeToolTip": "Proyecto_Final_Papeleria\\iniciarsesion.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwBgAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\iniciarsesion.cs",
+              "RelativeToolTip": "Proyecto_Final_Papeleria\\iniciarsesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:38:51.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "iniciarsesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\iniciarsesion.cs",
-              "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\iniciarsesion.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\iniciarsesion.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Proyecto_Final_Papeleria\\iniciarsesion.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:35:15.752Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-03T02:38:51.375Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "iniciarsesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\iniciarsesion.cs",
+              "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\iniciarsesion.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\iniciarsesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Final_Papeleria\\iniciarsesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:35:15.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Login.cs",
               "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\Login.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Login.cs",
-              "RelativeToolTip": "Proyecto_Final_Papeleria\\Login.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDoAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Login.cs*",
+              "RelativeToolTip": "Proyecto_Final_Papeleria\\Login.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAA3wCIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T02:32:34.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Login.cs",
               "RelativeDocumentMoniker": "Proyecto_Final_Papeleria\\Login.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Final_Papeleria\\Login.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documents\\GitHub\\Proyecto_Final_Progra\\Proyecto_Final_Papeleria\\Proyecto_Final_Papeleria\\Login.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Proyecto_Final_Papeleria\\Login.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T20:43:38.677Z",
               "EditorCaption": " [Dise\u00F1o]"
