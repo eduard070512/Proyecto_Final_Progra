@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Final_Papeleria
 {
-    partial class iniciarsesion
+    partial class Verificar_Admin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(iniciarsesion));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Verificar_Admin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblvalidarc = new System.Windows.Forms.Label();
             this.lblvalidarn = new System.Windows.Forms.Label();
-            this.btncrearu = new System.Windows.Forms.Button();
             this.btniniciars = new System.Windows.Forms.Button();
             this.txtcontrasena = new System.Windows.Forms.TextBox();
             this.lblcontrasena = new System.Windows.Forms.Label();
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.lblusuario = new System.Windows.Forms.Label();
             this.lbltitulo = new System.Windows.Forms.Label();
+            this.lblverificar = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,26 +46,26 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.lblverificar);
             this.panel1.Controls.Add(this.lblvalidarc);
             this.panel1.Controls.Add(this.lblvalidarn);
-            this.panel1.Controls.Add(this.btncrearu);
             this.panel1.Controls.Add(this.btniniciars);
             this.panel1.Controls.Add(this.txtcontrasena);
             this.panel1.Controls.Add(this.lblcontrasena);
             this.panel1.Controls.Add(this.txtusuario);
             this.panel1.Controls.Add(this.lblusuario);
             this.panel1.Controls.Add(this.lbltitulo);
-            this.panel1.Location = new System.Drawing.Point(128, 41);
+            this.panel1.Location = new System.Drawing.Point(-2, -2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(360, 281);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 2;
             // 
             // lblvalidarc
             // 
             this.lblvalidarc.AutoSize = true;
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarc.Location = new System.Drawing.Point(67, 137);
+            this.lblvalidarc.Location = new System.Drawing.Point(67, 186);
             this.lblvalidarc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblvalidarc.Name = "lblvalidarc";
             this.lblvalidarc.Size = new System.Drawing.Size(0, 13);
@@ -75,29 +75,17 @@
             // 
             this.lblvalidarn.AutoSize = true;
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarn.Location = new System.Drawing.Point(67, 79);
+            this.lblvalidarn.Location = new System.Drawing.Point(67, 128);
             this.lblvalidarn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblvalidarn.Name = "lblvalidarn";
             this.lblvalidarn.Size = new System.Drawing.Size(0, 13);
             this.lblvalidarn.TabIndex = 9;
             // 
-            // btncrearu
-            // 
-            this.btncrearu.Image = ((System.Drawing.Image)(resources.GetObject("btncrearu.Image")));
-            this.btncrearu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncrearu.Location = new System.Drawing.Point(69, 228);
-            this.btncrearu.Name = "btncrearu";
-            this.btncrearu.Size = new System.Drawing.Size(219, 34);
-            this.btncrearu.TabIndex = 8;
-            this.btncrearu.Text = "CREAR NUEVO USUARIO";
-            this.btncrearu.UseVisualStyleBackColor = true;
-            this.btncrearu.Click += new System.EventHandler(this.btncrearu_Click);
-            // 
             // btniniciars
             // 
             this.btniniciars.Image = ((System.Drawing.Image)(resources.GetObject("btniniciars.Image")));
             this.btniniciars.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btniniciars.Location = new System.Drawing.Point(69, 184);
+            this.btniniciars.Location = new System.Drawing.Point(69, 233);
             this.btniniciars.Margin = new System.Windows.Forms.Padding(2);
             this.btniniciars.Name = "btniniciars";
             this.btniniciars.Size = new System.Drawing.Size(219, 34);
@@ -108,7 +96,7 @@
             // 
             // txtcontrasena
             // 
-            this.txtcontrasena.Location = new System.Drawing.Point(70, 152);
+            this.txtcontrasena.Location = new System.Drawing.Point(70, 201);
             this.txtcontrasena.Margin = new System.Windows.Forms.Padding(2);
             this.txtcontrasena.Name = "txtcontrasena";
             this.txtcontrasena.Size = new System.Drawing.Size(218, 20);
@@ -117,16 +105,16 @@
             // lblcontrasena
             // 
             this.lblcontrasena.AutoSize = true;
-            this.lblcontrasena.Location = new System.Drawing.Point(68, 123);
+            this.lblcontrasena.Location = new System.Drawing.Point(68, 172);
             this.lblcontrasena.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(148, 13);
+            this.lblcontrasena.Size = new System.Drawing.Size(260, 13);
             this.lblcontrasena.TabIndex = 4;
-            this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA";
+            this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA DE ADMINISTRADOR\r\n";
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(70, 93);
+            this.txtusuario.Location = new System.Drawing.Point(70, 142);
             this.txtusuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(218, 20);
@@ -136,12 +124,12 @@
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.Location = new System.Drawing.Point(68, 63);
+            this.lblusuario.Location = new System.Drawing.Point(68, 112);
             this.lblusuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(191, 13);
+            this.lblusuario.Size = new System.Drawing.Size(233, 13);
             this.lblusuario.TabIndex = 2;
-            this.lblusuario.Text = "INGRESA EL NOMRBE DE USUARIO";
+            this.lblusuario.Text = "INGRESA EL NOMRBE DE ADMINISTRADOR\r\n";
             // 
             // lbltitulo
             // 
@@ -149,26 +137,34 @@
             this.lbltitulo.BackColor = System.Drawing.Color.Silver;
             this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(60, 11);
+            this.lbltitulo.Location = new System.Drawing.Point(2, 9);
             this.lbltitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(257, 40);
+            this.lbltitulo.Size = new System.Drawing.Size(348, 40);
             this.lbltitulo.TabIndex = 0;
-            this.lbltitulo.Text = "INICIAR SESION";
+            this.lbltitulo.Text = "NECESITAS PERMISOS";
             // 
-            // iniciarsesion
+            // lblverificar
+            // 
+            this.lblverificar.AutoSize = true;
+            this.lblverificar.Location = new System.Drawing.Point(68, 53);
+            this.lblverificar.Name = "lblverificar";
+            this.lblverificar.Size = new System.Drawing.Size(261, 52);
+            this.lblverificar.TabIndex = 11;
+            this.lblverificar.Text = "Para crear un nuevo usuario deberas verificar que\r\ntienes los permisos para crear" +
+    "lo iniciando sesion \r\ncomo administrador.\r\nNOTA: El administrador es el primer u" +
+    "suario agregado.";
+            // 
+            // Verificar_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(354, 273);
             this.Controls.Add(this.panel1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.Name = "iniciarsesion";
+            this.Name = "Verificar_Admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "iniciarsesion";
+            this.Text = "Verificar_Admin";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -178,14 +174,14 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblvalidarc;
+        private System.Windows.Forms.Label lblvalidarn;
         private System.Windows.Forms.Button btniniciars;
         private System.Windows.Forms.TextBox txtcontrasena;
         private System.Windows.Forms.Label lblcontrasena;
         private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.Label lblusuario;
         private System.Windows.Forms.Label lbltitulo;
-        private System.Windows.Forms.Button btncrearu;
-        private System.Windows.Forms.Label lblvalidarn;
-        private System.Windows.Forms.Label lblvalidarc;
+        private System.Windows.Forms.Label lblverificar;
     }
 }
