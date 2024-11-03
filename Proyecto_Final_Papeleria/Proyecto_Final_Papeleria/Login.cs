@@ -14,11 +14,23 @@ namespace Proyecto_Final_Papeleria
     {
         public Login()
         {
-            InitializeComponent()
+            InitializeComponent();
         }
-        private void Principal_Load(object sender, EventArgs e)
+
+        private void Login_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("este se subira");
+            timer.Start();
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                timer.Stop();
+                this.Hide();
+                iniciarsesion sesion = new iniciarsesion();
+                sesion.Show();
+            }
         }
     }
 }
