@@ -16,7 +16,10 @@ namespace Proyecto_Final_Papeleria
         {
             InitializeComponent();
         }
+        public void agregar()
+        {
 
+        }
         private void Login_Load(object sender, EventArgs e)
         {
             timer.Start();
