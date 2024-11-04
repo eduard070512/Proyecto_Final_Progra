@@ -75,6 +75,8 @@ namespace Proyecto_Final_Papeleria
             this.Hide();
             iniciarsesion sesion = new iniciarsesion(this);
             sesion.Show();
+            lblvalidarc.Hide();
+            lblvalidarn.Hide();
         }
     }
 }
