@@ -14,7 +14,7 @@ namespace Proyecto_Final_Papeleria
     {
         public menu()
         {
-            InitializeComponent();
+            InitializeComponent()
         }
     }
 }
