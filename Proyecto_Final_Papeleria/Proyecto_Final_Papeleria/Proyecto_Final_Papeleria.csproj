@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="F_modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_modificar.Designer.cs">
+      <DependentUpon>F_modificar.cs</DependentUpon>
+    </Compile>
     <Compile Include="iniciarsesion.cs">
       <SubType>Form</SubType>
     </Compile>
