@@ -93,6 +93,9 @@
     <Compile Include="Verificar_Admin.Designer.cs">
       <DependentUpon>Verificar_Admin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="F_modificar.resx">
+      <DependentUpon>F_modificar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="iniciarsesion.resx">
       <DependentUpon>iniciarsesion.cs</DependentUpon>
     </EmbeddedResource>

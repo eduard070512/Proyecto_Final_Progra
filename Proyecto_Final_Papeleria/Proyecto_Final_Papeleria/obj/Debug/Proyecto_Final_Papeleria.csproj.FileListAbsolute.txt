@@ -20,3 +20,5 @@ C:\Users\eduar\OneDrive\Documents\GitHub\Proyecto_Final_Progra\Proyecto_Final_Pa
 C:\Users\eduar\OneDrive\Documents\GitHub\Proyecto_Final_Progra\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.pdb
 C:\Users\eduar\OneDrive\Documents\GitHub\Proyecto_Final_Progra\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.iniciarsesion.resources
 C:\Users\eduar\OneDrive\Documents\GitHub\Proyecto_Final_Progra\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.Verificar_Admin.resources
+C:\Users\eduar\OneDrive\Documents\GitHub\Proyecto_Final_Progra\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.menu.resources
+C:\Users\eduar\OneDrive\Documents\GitHub\Proyecto_Final_Progra\Proyecto_Final_Papeleria\Proyecto_Final_Papeleria\obj\Debug\Proyecto_Final_Papeleria.F_modificar.resources

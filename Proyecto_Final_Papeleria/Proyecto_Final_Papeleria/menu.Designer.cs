@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu));
             this.pnlnavbar = new System.Windows.Forms.Panel();
+            this.btnagregar = new System.Windows.Forms.Button();
+            this.btnmodificar = new System.Windows.Forms.Button();
+            this.btnbuscar = new System.Windows.Forms.Button();
+            this.btnventa = new System.Windows.Forms.Button();
+            this.btninicio = new System.Windows.Forms.Button();
             this.pnltitulo = new System.Windows.Forms.Panel();
             this.lbltitulo = new System.Windows.Forms.Label();
-            this.btninicio = new System.Windows.Forms.Button();
-            this.btnventa = new System.Windows.Forms.Button();
-            this.btnbuscar = new System.Windows.Forms.Button();
-            this.btnmodificar = new System.Windows.Forms.Button();
-            this.btnagregar = new System.Windows.Forms.Button();
             this.lblintroduccion = new System.Windows.Forms.Label();
             this.lbltituloi = new System.Windows.Forms.Label();
             this.pnlnavbar.SuspendLayout();
@@ -55,6 +55,51 @@
             this.pnlnavbar.Name = "pnlnavbar";
             this.pnlnavbar.Size = new System.Drawing.Size(602, 42);
             this.pnlnavbar.TabIndex = 0;
+            // 
+            // btnagregar
+            // 
+            this.btnagregar.Location = new System.Drawing.Point(471, 8);
+            this.btnagregar.Name = "btnagregar";
+            this.btnagregar.Size = new System.Drawing.Size(110, 27);
+            this.btnagregar.TabIndex = 4;
+            this.btnagregar.Text = "AGREGAR";
+            this.btnagregar.UseVisualStyleBackColor = true;
+            // 
+            // btnmodificar
+            // 
+            this.btnmodificar.Location = new System.Drawing.Point(358, 8);
+            this.btnmodificar.Name = "btnmodificar";
+            this.btnmodificar.Size = new System.Drawing.Size(110, 27);
+            this.btnmodificar.TabIndex = 3;
+            this.btnmodificar.Text = "MODIFICAR";
+            this.btnmodificar.UseVisualStyleBackColor = true;
+            // 
+            // btnbuscar
+            // 
+            this.btnbuscar.Location = new System.Drawing.Point(245, 8);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(110, 27);
+            this.btnbuscar.TabIndex = 2;
+            this.btnbuscar.Text = "BUSCAR";
+            this.btnbuscar.UseVisualStyleBackColor = true;
+            // 
+            // btnventa
+            // 
+            this.btnventa.Location = new System.Drawing.Point(132, 8);
+            this.btnventa.Name = "btnventa";
+            this.btnventa.Size = new System.Drawing.Size(110, 27);
+            this.btnventa.TabIndex = 1;
+            this.btnventa.Text = "VENTA";
+            this.btnventa.UseVisualStyleBackColor = true;
+            // 
+            // btninicio
+            // 
+            this.btninicio.Location = new System.Drawing.Point(19, 8);
+            this.btninicio.Name = "btninicio";
+            this.btninicio.Size = new System.Drawing.Size(110, 27);
+            this.btninicio.TabIndex = 0;
+            this.btninicio.Text = "INICIO";
+            this.btninicio.UseVisualStyleBackColor = true;
             // 
             // pnltitulo
             // 
@@ -76,51 +121,6 @@
             this.lbltitulo.Size = new System.Drawing.Size(599, 50);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "PAPELERIA MAC BEEPD";
-            // 
-            // btninicio
-            // 
-            this.btninicio.Location = new System.Drawing.Point(19, 8);
-            this.btninicio.Name = "btninicio";
-            this.btninicio.Size = new System.Drawing.Size(110, 27);
-            this.btninicio.TabIndex = 0;
-            this.btninicio.Text = "INICIO";
-            this.btninicio.UseVisualStyleBackColor = true;
-            // 
-            // btnventa
-            // 
-            this.btnventa.Location = new System.Drawing.Point(132, 8);
-            this.btnventa.Name = "btnventa";
-            this.btnventa.Size = new System.Drawing.Size(110, 27);
-            this.btnventa.TabIndex = 1;
-            this.btnventa.Text = "VENTA";
-            this.btnventa.UseVisualStyleBackColor = true;
-            // 
-            // btnbuscar
-            // 
-            this.btnbuscar.Location = new System.Drawing.Point(245, 8);
-            this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(110, 27);
-            this.btnbuscar.TabIndex = 2;
-            this.btnbuscar.Text = "BUSCAR";
-            this.btnbuscar.UseVisualStyleBackColor = true;
-            // 
-            // btnmodificar
-            // 
-            this.btnmodificar.Location = new System.Drawing.Point(358, 8);
-            this.btnmodificar.Name = "btnmodificar";
-            this.btnmodificar.Size = new System.Drawing.Size(110, 27);
-            this.btnmodificar.TabIndex = 3;
-            this.btnmodificar.Text = "MODIFICAR";
-            this.btnmodificar.UseVisualStyleBackColor = true;
-            // 
-            // btnagregar
-            // 
-            this.btnagregar.Location = new System.Drawing.Point(471, 8);
-            this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(110, 27);
-            this.btnagregar.TabIndex = 4;
-            this.btnagregar.Text = "AGREGAR";
-            this.btnagregar.UseVisualStyleBackColor = true;
             // 
             // lblintroduccion
             // 
@@ -147,14 +147,14 @@
             // 
             // menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.lbltituloi);
             this.Controls.Add(this.lblintroduccion);
             this.Controls.Add(this.pnltitulo);
             this.Controls.Add(this.pnlnavbar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "menu";
             this.Text = "menu";

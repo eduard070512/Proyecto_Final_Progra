@@ -76,6 +76,7 @@
             // lblvalidarc
             // 
             this.lblvalidarc.AutoSize = true;
+            this.lblvalidarc.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
             this.lblvalidarc.Location = new System.Drawing.Point(67, 186);
             this.lblvalidarc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -86,6 +87,7 @@
             // lblvalidarn
             // 
             this.lblvalidarn.AutoSize = true;
+            this.lblvalidarn.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
             this.lblvalidarn.Location = new System.Drawing.Point(67, 128);
             this.lblvalidarn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -121,9 +123,9 @@
             this.lblcontrasena.Location = new System.Drawing.Point(68, 172);
             this.lblcontrasena.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(260, 13);
+            this.lblcontrasena.Size = new System.Drawing.Size(266, 13);
             this.lblcontrasena.TabIndex = 5;
-            this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA DE ADMINISTRADOR\r\n";
+            this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA DEL ADMINISTRADOR\r\n";
             // 
             // txtusuario
             // 
@@ -141,9 +143,9 @@
             this.lblusuario.Location = new System.Drawing.Point(68, 112);
             this.lblusuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(233, 13);
+            this.lblusuario.Size = new System.Drawing.Size(239, 13);
             this.lblusuario.TabIndex = 2;
-            this.lblusuario.Text = "INGRESA EL NOMRBE DE ADMINISTRADOR\r\n";
+            this.lblusuario.Text = "INGRESA EL NOMRBE DEL ADMINISTRADOR\r\n";
             // 
             // lbltitulo
             // 
@@ -165,6 +167,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(354, 273);
             this.Controls.Add(this.pnlverificar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Verificar_Admin";

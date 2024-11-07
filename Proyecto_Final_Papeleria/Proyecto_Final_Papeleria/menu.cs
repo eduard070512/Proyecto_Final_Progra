@@ -12,9 +12,9 @@ namespace Proyecto_Final_Papeleria
 {
     public partial class menu : Form
     {
-        public menu()
+        public menu(int id)
         {
-            InitializeComponent()
+            InitializeComponent();
         }
     }
 }
