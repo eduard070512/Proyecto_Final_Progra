@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pnlregistro = new System.Windows.Forms.Panel();
             this.Chkadmin = new System.Windows.Forms.CheckBox();
@@ -42,7 +41,6 @@
             this.lblusuario = new System.Windows.Forms.Label();
             this.lblprimeru = new System.Windows.Forms.Label();
             this.lbltitulo = new System.Windows.Forms.Label();
-            this.timer = new System.Windows.Forms.Timer(this.components);
             this.pnlregistro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -187,11 +185,6 @@
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "REGISTRATE";
             // 
-            // timer
-            // 
-            this.timer.Interval = 10;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
-            // 
             // Login
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -206,7 +199,6 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PAPELERIA LOGIN";
-            this.Load += new System.EventHandler(this.Login_Load);
             this.pnlregistro.ResumeLayout(false);
             this.pnlregistro.PerformLayout();
             this.ResumeLayout(false);
@@ -222,12 +214,11 @@
         private System.Windows.Forms.TextBox txtcontrasena;
         private System.Windows.Forms.Label lblcontrasena;
         private System.Windows.Forms.Button btncrearu;
-        private System.Windows.Forms.Timer timer;
-        private System.Windows.Forms.Label lblprimeru;
         private System.Windows.Forms.Label lblvalidarc;
         private System.Windows.Forms.Label lblvalidarn;
         public System.Windows.Forms.LinkLabel lliniciars;
-        private System.Windows.Forms.CheckBox Chkadmin;
+        public System.Windows.Forms.CheckBox Chkadmin;
+        public System.Windows.Forms.Label lblprimeru;
     }
 }
 

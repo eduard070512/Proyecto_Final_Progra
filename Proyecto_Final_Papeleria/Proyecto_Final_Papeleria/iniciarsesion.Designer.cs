@@ -68,7 +68,7 @@
             this.llnuevou.Location = new System.Drawing.Point(189, 261);
             this.llnuevou.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llnuevou.Name = "llnuevou";
-            this.llnuevou.Size = new System.Drawing.Size(137, 13);
+            this.llnuevou.Size = new System.Drawing.Size(169, 16);
             this.llnuevou.TabIndex = 9;
             this.llnuevou.TabStop = true;
             this.llnuevou.Text = "CREAR NUEVO USUARIO";
@@ -81,7 +81,7 @@
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
             this.lblvalidarc.Location = new System.Drawing.Point(31, 137);
             this.lblvalidarc.Name = "lblvalidarc";
-            this.lblvalidarc.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarc.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarc.TabIndex = 5;
             // 
             // lblvalidarn
@@ -91,7 +91,7 @@
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
             this.lblvalidarn.Location = new System.Drawing.Point(31, 73);
             this.lblvalidarn.Name = "lblvalidarn";
-            this.lblvalidarn.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarn.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarn.TabIndex = 2;
             // 
             // btniniciars
@@ -112,7 +112,7 @@
             this.txtcontrasena.Location = new System.Drawing.Point(35, 157);
             this.txtcontrasena.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtcontrasena.Name = "txtcontrasena";
-            this.txtcontrasena.Size = new System.Drawing.Size(289, 20);
+            this.txtcontrasena.Size = new System.Drawing.Size(289, 22);
             this.txtcontrasena.TabIndex = 6;
             // 
             // lblcontrasena
@@ -121,7 +121,7 @@
             this.lblcontrasena.BackColor = System.Drawing.Color.Transparent;
             this.lblcontrasena.Location = new System.Drawing.Point(33, 121);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(148, 13);
+            this.lblcontrasena.Size = new System.Drawing.Size(183, 16);
             this.lblcontrasena.TabIndex = 4;
             this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA";
             // 
@@ -130,7 +130,7 @@
             this.txtusuario.Location = new System.Drawing.Point(35, 90);
             this.txtusuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(289, 20);
+            this.txtusuario.Size = new System.Drawing.Size(289, 22);
             this.txtusuario.TabIndex = 3;
             this.txtusuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtusuario_KeyPress);
             // 
@@ -140,7 +140,7 @@
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
             this.lblusuario.Location = new System.Drawing.Point(33, 58);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(191, 13);
+            this.lblusuario.Size = new System.Drawing.Size(234, 16);
             this.lblusuario.TabIndex = 1;
             this.lblusuario.Text = "INGRESA EL NOMRBE DE USUARIO";
             // 
@@ -152,7 +152,7 @@
             this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitulo.Location = new System.Drawing.Point(54, 11);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(257, 40);
+            this.lbltitulo.Size = new System.Drawing.Size(318, 49);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "INICIAR SESION";
             // 

@@ -12,29 +12,29 @@ namespace Proyecto_Final_Papeleria
 {
     public partial class iniciarsesion : Form
     {
-        private Login login;
-        public iniciarsesion(Login login)
+        private inicio inicio;
+        public iniciarsesion(inicio inicio)
         {
             InitializeComponent();
-            this.login = login;
+            this.inicio = inicio;
         }
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblvalidarn.Hide();
-            if (!login.validarn(e.KeyChar))
+            if (!inicio.validarn(e.KeyChar))
             {
                 e.Handled = true;
-                login.errores(0, lblvalidarn);
+                inicio.errores(0, lblvalidarn);
             }
         }
         private void btniniciars_Click(object sender, EventArgs e)
         {
             lblvalidarc.Hide();
             lblvalidarn.Hide();
-            if (txtusuario.Text.Length < 5) login.errores(1, lblvalidarn);
-            if (txtcontrasena.Text.Length < 8) login.errores(2, lblvalidarc);
-            int id = login.iniciars(txtusuario.Text, txtcontrasena.Text);
-            if (id == -1) login.errores(3, lblvalidarn);
+            if (txtusuario.Text.Length < 5) inicio.errores(1, lblvalidarn);
+            if (txtcontrasena.Text.Length < 8) inicio.errores(2, lblvalidarc);
+            int id = inicio.iniciars(txtusuario.Text, txtcontrasena.Text);
+            if (id == -1) inicio.errores(3, lblvalidarn);
             else
             {
                 menu menu = new menu(id);
@@ -43,7 +43,7 @@ namespace Proyecto_Final_Papeleria
         }
         private void llnuevou_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Verificar_Admin verificar = new Verificar_Admin(login, this);
+            Verificar_Admin verificar = new Verificar_Admin(inicio, this);
             verificar.Show();
             this.Enabled = false;
         }

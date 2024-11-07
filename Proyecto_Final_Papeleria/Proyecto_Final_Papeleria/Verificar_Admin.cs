@@ -12,44 +12,46 @@ namespace Proyecto_Final_Papeleria
 {
     public partial class Verificar_Admin : Form
     {
-        private Login login;
+        private inicio inicio;
         private iniciarsesion sesion;
-        public Verificar_Admin(Login login, iniciarsesion sesion)
+        public Verificar_Admin(inicio inicio, iniciarsesion sesion)
         {
             InitializeComponent();
-            this.login = login;
+            this.inicio = inicio;
             this.sesion = sesion;
         }
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblvalidarn.Hide();
-            if (!login.validarn(e.KeyChar))
+            if (!inicio.validarn(e.KeyChar))
             {
                 e.Handled = true;
-                login.errores(0, lblvalidarn);
+                inicio.errores(0, lblvalidarn);
             }
         }
         private void btniniciars_Click(object sender, EventArgs e)
         {
             lblvalidarc.Hide();
             lblvalidarn.Hide();
-            if (txtusuario.Text.Length < 5) login.errores(1, lblvalidarn);
-            else if (txtcontrasena.Text.Length < 8) login.errores(2, lblvalidarc);
+            if (txtusuario.Text.Length < 5) inicio.errores(1, lblvalidarn);
+            else if (txtcontrasena.Text.Length < 8) inicio.errores(2, lblvalidarc);
             else
             {
-                int id = login.iniciars(txtusuario.Text, txtcontrasena.Text);
+                int id = inicio.iniciars(txtusuario.Text, txtcontrasena.Text);
                 if (id != -1) //funcion que valide usuario admin
                 {
-                    if (login.esadmin(id) == 1)
+                    if (inicio.esadmin(id) == 1)
                     {
-                        this.Close();
-                        login.Show();
+                        Login login = new Login(inicio);
                         login.lliniciars.Show();
+                        login.Chkadmin.Show();
+                        login.lblprimeru.Hide();
                         sesion.Close();
+                        this.Close();
                     }
-                    else login.errores(4, lblvalidarn);
+                    else inicio.errores(4, lblvalidarn);
                 }
-                else login.errores(3,lblvalidarn);
+                else inicio.errores(3,lblvalidarn);
             }
         }
     }
