@@ -27,7 +27,7 @@ namespace Proyecto_Final_Papeleria
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblvalidarn.Hide();
-            if (!inicio.validarn(e.KeyChar))
+            if (!inicio.validaru(e.KeyChar))
             {
                 e.Handled = true;
                 inicio.errores(0, lblvalidarn);

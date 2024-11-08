@@ -25,7 +25,7 @@ namespace Proyecto_Final_Papeleria
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblvalidarn.Hide();
-            if (!inicio.validarn(e.KeyChar))
+            if (!inicio.validaru(e.KeyChar))
             {
                 e.Handled = true;
                 inicio.errores(0, lblvalidarn);
@@ -36,18 +36,22 @@ namespace Proyecto_Final_Papeleria
             lblvalidarc.Hide();
             lblvalidarn.Hide();
             if (txtusuario.Text.Length < 5) inicio.errores(1, lblvalidarn);
-            if (txtcontrasena.Text.Length < 8) inicio.errores(2, lblvalidarc);
-            int id = inicio.iniciars(txtusuario.Text, txtcontrasena.Text);
-            if (id == -1) inicio.errores(3, lblvalidarn);
+            else if (txtcontrasena.Text.Length < 8) inicio.errores(2, lblvalidarc);
             else
             {
-                menu menu = new menu(id,inicio,txtusuario.Text);
-                menu.StartPosition = FormStartPosition.Manual;
-                menu.Location = new Point(this.Location.X, this.Location.Y);
-                menu.Show();
-                inicio.presiono = 0;
-                this.Close();
+                int id = inicio.iniciars(txtusuario.Text, txtcontrasena.Text);
+                if (id == -1) inicio.errores(3, lblvalidarn);
+                else
+                {
+                    menu menu = new menu(id,inicio,txtusuario.Text);
+                    menu.StartPosition = FormStartPosition.Manual;
+                    menu.Location = new Point(this.Location.X, this.Location.Y);
+                    menu.Show();
+                    inicio.presiono = 0;
+                    this.Close();
+                }
             }
+
         }
         private void llnuevou_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -64,7 +68,7 @@ namespace Proyecto_Final_Papeleria
                 e.Cancel = true;
                 cerrar cerrar = new cerrar(inicio);
                 cerrar.StartPosition = FormStartPosition.Manual;
-                cerrar.Location = new Point(this.Location.X + 198, this.Location.Y + 142);
+                cerrar.Location = new Point(this.Location.X + (this.Width - cerrar.Width) / 2, this.Location.Y + (this.Height - cerrar.Height) / 2);
                 cerrar.ShowDialog();
             }
         }

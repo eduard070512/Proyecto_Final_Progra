@@ -25,11 +25,20 @@ namespace Proyecto_Final_Papeleria
         }
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
-            lblvalidarn.Hide();
-            if(!inicio.validarn(e.KeyChar))
+            lblvalidaru.Hide();
+            if(!inicio.validaru(e.KeyChar))
             {
                 e.Handled = true;
-                inicio.errores(0, lblvalidarn);
+                inicio.errores(0, lblvalidaru);
+            }
+        }
+        private void txtnombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            lblvalidarn.Hide();
+            if (!inicio.validarn(e.KeyChar))
+            {
+                e.Handled = true;
+                inicio.errores(0, lblvalidaru);
             }
         }
         private void lliniciars_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -39,15 +48,16 @@ namespace Proyecto_Final_Papeleria
             sesion.Location = new Point(this.Location.X, this.Location.Y);
             sesion.Show();
             lblvalidarc.Hide();
-            lblvalidarn.Hide();
+            lblvalidaru.Hide();
             inicio.presiono = 0;
             this.Close();
         }
         private void btncrearu_Click(object sender, EventArgs e)
         {
             lblvalidarc.Hide();
-            lblvalidarn.Hide();
-            if (txtusuario.Text.Length < 5) inicio.errores(1, lblvalidarn);
+            lblvalidaru.Hide();
+            if (txtusuario.Text.Length < 5) inicio.errores(1, lblvalidaru);
+            else if (txtnombre.Text.Length < 5) inicio.errores(1, lblvalidaru);
             else if (txtcontrasena.Text.Length < 8) inicio.errores(2, lblvalidarc);
             else
             {
@@ -74,7 +84,7 @@ namespace Proyecto_Final_Papeleria
                 e.Cancel = true;
                 cerrar cerrar = new cerrar(inicio);
                 cerrar.StartPosition = FormStartPosition.Manual;
-                cerrar.Location = new Point(this.Location.X + 198, this.Location.Y + 142);
+                cerrar.Location = new Point(this.Location.X + (this.Width - cerrar.Width) / 2, this.Location.Y + (this.Height - cerrar.Height) / 2);
                 cerrar.ShowDialog();
             }
         }

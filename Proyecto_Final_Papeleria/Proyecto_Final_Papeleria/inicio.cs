@@ -48,6 +48,11 @@ namespace Proyecto_Final_Papeleria
         }
         public bool validarn(char c)
         {
+            if ((c < 65 || c > 90) && (c < 97 || c > 122) && c != 164 && c != 165 && c > 31 && c != 127) return false;
+            else return true;
+        }
+        public bool validaru(char c)
+        {
             if ((c < 65 || c > 90) && (c < 97 || c > 122) && (c < 48 || c > 57) && c != 95 && c != 46 && c != 164 && c != 165 && c > 31 && c != 127) return false;
             else return true;
         }
@@ -135,7 +140,7 @@ namespace Proyecto_Final_Papeleria
         {
             cerrar cerrar = new cerrar(this);
             cerrar.StartPosition = FormStartPosition.Manual;
-            cerrar.Location = new Point(this.Location.X+198, this.Location.Y+142);
+            cerrar.Location = new Point(this.Location.X + (this.Width - cerrar.Width) / 2, this.Location.Y + (this.Height - cerrar.Height) / 2);
             cerrar.ShowDialog();
         }
         private void Pbcerrar_MouseEnter(object sender, EventArgs e)

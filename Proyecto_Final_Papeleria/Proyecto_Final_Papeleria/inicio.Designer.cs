@@ -56,7 +56,7 @@
             // 
             // btncontinuar
             // 
-            this.btncontinuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(184)))), ((int)(((byte)(196)))));
+            this.btncontinuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(120)))), ((int)(((byte)(171)))));
             this.btncontinuar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncontinuar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncontinuar.ForeColor = System.Drawing.Color.White;

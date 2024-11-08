@@ -38,9 +38,14 @@ namespace Proyecto_Final_Papeleria
                 e.Cancel = true;
                 cerrar cerrar = new cerrar(inicio);
                 cerrar.StartPosition = FormStartPosition.Manual;
-                cerrar.Location = new Point(this.Location.X + 198, this.Location.Y + 142);
+                cerrar.Location = new Point(this.Location.X + (this.Width - cerrar.Width) / 2, this.Location.Y + (this.Height - cerrar.Height) / 2);
                 cerrar.ShowDialog();
             }
+        }
+
+        private void Pbusuario_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

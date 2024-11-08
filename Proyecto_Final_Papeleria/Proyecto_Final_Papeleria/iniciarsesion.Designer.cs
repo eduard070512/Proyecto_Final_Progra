@@ -68,7 +68,7 @@
             this.llnuevou.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llnuevou.Name = "llnuevou";
             this.llnuevou.Size = new System.Drawing.Size(176, 21);
-            this.llnuevou.TabIndex = 9;
+            this.llnuevou.TabIndex = 8;
             this.llnuevou.TabStop = true;
             this.llnuevou.Text = "CREAR NUEVO USUARIO";
             this.llnuevou.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llnuevou_LinkClicked);
