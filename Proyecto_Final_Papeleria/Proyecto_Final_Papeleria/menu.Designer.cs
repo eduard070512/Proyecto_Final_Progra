@@ -53,7 +53,7 @@
             this.pnlnavbar.Controls.Add(this.btninicio);
             this.pnlnavbar.Location = new System.Drawing.Point(-1, 56);
             this.pnlnavbar.Name = "pnlnavbar";
-            this.pnlnavbar.Size = new System.Drawing.Size(602, 42);
+            this.pnlnavbar.Size = new System.Drawing.Size(706, 53);
             this.pnlnavbar.TabIndex = 0;
             // 
             // btnagregar
@@ -108,17 +108,17 @@
             this.pnltitulo.Controls.Add(this.lbltitulo);
             this.pnltitulo.Location = new System.Drawing.Point(0, 0);
             this.pnltitulo.Name = "pnltitulo";
-            this.pnltitulo.Size = new System.Drawing.Size(602, 55);
+            this.pnltitulo.Size = new System.Drawing.Size(705, 55);
             this.pnltitulo.TabIndex = 1;
             // 
             // lbltitulo
             // 
             this.lbltitulo.AutoSize = true;
             this.lbltitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lbltitulo.Font = new System.Drawing.Font("Ravie", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitulo.Font = new System.Drawing.Font("Ravie", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitulo.Location = new System.Drawing.Point(-2, 3);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(599, 50);
+            this.lbltitulo.Size = new System.Drawing.Size(693, 57);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "PAPELERIA MAC BEEPD";
             // 
@@ -127,9 +127,9 @@
             this.lblintroduccion.AutoSize = true;
             this.lblintroduccion.BackColor = System.Drawing.Color.Transparent;
             this.lblintroduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblintroduccion.Location = new System.Drawing.Point(18, 169);
+            this.lblintroduccion.Location = new System.Drawing.Point(18, 207);
             this.lblintroduccion.Name = "lblintroduccion";
-            this.lblintroduccion.Size = new System.Drawing.Size(515, 140);
+            this.lblintroduccion.Size = new System.Drawing.Size(632, 175);
             this.lblintroduccion.TabIndex = 2;
             this.lblintroduccion.Text = resources.GetString("lblintroduccion.Text");
             // 
@@ -138,18 +138,19 @@
             this.lbltituloi.AutoSize = true;
             this.lbltituloi.BackColor = System.Drawing.Color.Transparent;
             this.lbltituloi.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltituloi.Location = new System.Drawing.Point(18, 113);
+            this.lbltituloi.Location = new System.Drawing.Point(5, 139);
             this.lbltituloi.Name = "lbltituloi";
-            this.lbltituloi.Size = new System.Drawing.Size(570, 46);
+            this.lbltituloi.Size = new System.Drawing.Size(700, 60);
             this.lbltituloi.TabIndex = 3;
             this.lbltituloi.Text = "Bienvenido a la aplicacion de gestion de inventario de \r\nPAPELERIA MAC BEEPD";
             this.lbltituloi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // menu
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(702, 424);
             this.Controls.Add(this.lbltituloi);
             this.Controls.Add(this.lblintroduccion);
             this.Controls.Add(this.pnltitulo);
@@ -157,7 +158,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "menu";
+            this.Load += new System.EventHandler(this.menu_Load);
             this.pnlnavbar.ResumeLayout(false);
             this.pnltitulo.ResumeLayout(false);
             this.pnltitulo.PerformLayout();

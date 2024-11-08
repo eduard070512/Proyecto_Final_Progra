@@ -55,33 +55,33 @@
             this.pnlverificar.Controls.Add(this.txtusuario);
             this.pnlverificar.Controls.Add(this.lblusuario);
             this.pnlverificar.Controls.Add(this.lbltitulo);
-            this.pnlverificar.Location = new System.Drawing.Point(-2, -2);
-            this.pnlverificar.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlverificar.Location = new System.Drawing.Point(-3, -2);
+            this.pnlverificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlverificar.Name = "pnlverificar";
-            this.pnlverificar.Size = new System.Drawing.Size(360, 281);
+            this.pnlverificar.Size = new System.Drawing.Size(479, 345);
             this.pnlverificar.TabIndex = 0;
             // 
             // lblverificar
             // 
             this.lblverificar.AutoSize = true;
             this.lblverificar.BackColor = System.Drawing.Color.Transparent;
-            this.lblverificar.Location = new System.Drawing.Point(68, 53);
+            this.lblverificar.Location = new System.Drawing.Point(66, 79);
+            this.lblverificar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblverificar.Name = "lblverificar";
-            this.lblverificar.Size = new System.Drawing.Size(261, 52);
+            this.lblverificar.Size = new System.Drawing.Size(367, 48);
             this.lblverificar.TabIndex = 1;
-            this.lblverificar.Text = "Para crear un nuevo usuario deberas verificar que\r\ntienes los permisos para crear" +
-    "lo iniciando sesion \r\ncomo administrador.\r\nNOTA: El administrador es el primer u" +
-    "suario agregado.";
+            this.lblverificar.Text = "Para crear un nuevo usuario deberas verificar que tienes los \r\npermisos para crea" +
+    "rlo iniciando sesion como administrador.\r\nNOTA: El administrador es el primer us" +
+    "uario agregado.";
             // 
             // lblvalidarc
             // 
             this.lblvalidarc.AutoSize = true;
             this.lblvalidarc.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarc.Location = new System.Drawing.Point(67, 186);
-            this.lblvalidarc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblvalidarc.Location = new System.Drawing.Point(65, 229);
             this.lblvalidarc.Name = "lblvalidarc";
-            this.lblvalidarc.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarc.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarc.TabIndex = 6;
             // 
             // lblvalidarn
@@ -89,20 +89,19 @@
             this.lblvalidarn.AutoSize = true;
             this.lblvalidarn.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarn.Location = new System.Drawing.Point(67, 128);
-            this.lblvalidarn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblvalidarn.Location = new System.Drawing.Point(65, 158);
             this.lblvalidarn.Name = "lblvalidarn";
-            this.lblvalidarn.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarn.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarn.TabIndex = 3;
             // 
             // btniniciars
             // 
             this.btniniciars.Image = ((System.Drawing.Image)(resources.GetObject("btniniciars.Image")));
             this.btniniciars.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btniniciars.Location = new System.Drawing.Point(69, 233);
-            this.btniniciars.Margin = new System.Windows.Forms.Padding(2);
+            this.btniniciars.Location = new System.Drawing.Point(68, 287);
+            this.btniniciars.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniniciars.Name = "btniniciars";
-            this.btniniciars.Size = new System.Drawing.Size(219, 34);
+            this.btniniciars.Size = new System.Drawing.Size(344, 42);
             this.btniniciars.TabIndex = 8;
             this.btniniciars.Text = "INICIAR SESIÓN";
             this.btniniciars.UseVisualStyleBackColor = true;
@@ -110,29 +109,28 @@
             // 
             // txtcontrasena
             // 
-            this.txtcontrasena.Location = new System.Drawing.Point(70, 201);
-            this.txtcontrasena.Margin = new System.Windows.Forms.Padding(2);
+            this.txtcontrasena.Location = new System.Drawing.Point(69, 247);
+            this.txtcontrasena.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtcontrasena.Name = "txtcontrasena";
-            this.txtcontrasena.Size = new System.Drawing.Size(218, 20);
+            this.txtcontrasena.Size = new System.Drawing.Size(341, 22);
             this.txtcontrasena.TabIndex = 7;
             // 
             // lblcontrasena
             // 
             this.lblcontrasena.AutoSize = true;
             this.lblcontrasena.BackColor = System.Drawing.Color.Transparent;
-            this.lblcontrasena.Location = new System.Drawing.Point(68, 172);
-            this.lblcontrasena.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblcontrasena.Location = new System.Drawing.Point(67, 212);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(266, 13);
+            this.lblcontrasena.Size = new System.Drawing.Size(328, 16);
             this.lblcontrasena.TabIndex = 5;
             this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA DEL ADMINISTRADOR\r\n";
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(70, 142);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(2);
+            this.txtusuario.Location = new System.Drawing.Point(69, 175);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(218, 20);
+            this.txtusuario.Size = new System.Drawing.Size(341, 22);
             this.txtusuario.TabIndex = 4;
             this.txtusuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtusuario_KeyPress);
             // 
@@ -140,10 +138,9 @@
             // 
             this.lblusuario.AutoSize = true;
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
-            this.lblusuario.Location = new System.Drawing.Point(68, 112);
-            this.lblusuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblusuario.Location = new System.Drawing.Point(67, 138);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(239, 13);
+            this.lblusuario.Size = new System.Drawing.Size(293, 16);
             this.lblusuario.TabIndex = 2;
             this.lblusuario.Text = "INGRESA EL NOMRBE DEL ADMINISTRADOR\r\n";
             // 
@@ -153,22 +150,22 @@
             this.lbltitulo.BackColor = System.Drawing.Color.Silver;
             this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(2, 9);
-            this.lbltitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbltitulo.Location = new System.Drawing.Point(23, 16);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(348, 40);
+            this.lbltitulo.Size = new System.Drawing.Size(429, 49);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "NECESITAS PERMISOS";
             // 
             // Verificar_Admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(354, 273);
+            this.ClientSize = new System.Drawing.Size(474, 342);
             this.Controls.Add(this.pnlverificar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Verificar_Admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

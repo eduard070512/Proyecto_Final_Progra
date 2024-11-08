@@ -16,5 +16,10 @@ namespace Proyecto_Final_Papeleria
         {
             InitializeComponent();
         }
+
+        private void menu_Load(object sender, EventArgs e)
+        {
+ 
+        }
     }
 }

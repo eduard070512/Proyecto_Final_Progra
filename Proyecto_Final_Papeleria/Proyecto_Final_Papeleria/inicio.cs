@@ -22,7 +22,7 @@ namespace Proyecto_Final_Papeleria
         }
         private void inicio_Load(object sender, EventArgs e)
         {
-            conn = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0;" + @" Data Source = ../../../../BASE/DB_Proyecto_Final_Programacion1.accdb;" + @"Persist Security Info = False");
+            
         }
         public void errores(int error, Label lbl1)
         {
@@ -117,20 +117,23 @@ namespace Proyecto_Final_Papeleria
         }
         private void btncontinuar_Click(object sender, EventArgs e)
         {
+            conn = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0;" + @" Data Source = ../../../../BASE/DB_Proyecto_Final_Programacion1.accdb;" + @"Persist Security Info = False");
             this.Hide();
             int hay = hayusuarios();
-            if (hay == 1) //funcion validar si hay usuarios x
+            if (hay == 1) //funcion validar si hay usuarios x hay == 1
             {
                 admin = 0;
-                
-                MessageBox.Show("h");
                 iniciarsesion sesion = new iniciarsesion(this);
+                sesion.StartPosition = FormStartPosition.Manual;
+                sesion.Location = new Point(this.Location.X, this.Location.Y);
                 sesion.Show();
             }
             else
             {
                 Login login = new Login(this);
                 admin = 1;
+                login.StartPosition = FormStartPosition.Manual;
+                login.Location = new Point(this.Location.X, this.Location.Y);
                 login.Show();
             }
         }

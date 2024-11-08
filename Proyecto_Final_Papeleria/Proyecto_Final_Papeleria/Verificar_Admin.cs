@@ -43,9 +43,12 @@ namespace Proyecto_Final_Papeleria
                     if (inicio.esadmin(id) == 1)
                     {
                         Login login = new Login(inicio);
+                        login.StartPosition = FormStartPosition.Manual;
+                        login.Location = new Point(this.Location.X-128, this.Location.Y-35);
                         login.lliniciars.Show();
                         login.Chkadmin.Show();
                         login.lblprimeru.Hide();
+                        login.Show();
                         sesion.Close();
                         this.Close();
                     }

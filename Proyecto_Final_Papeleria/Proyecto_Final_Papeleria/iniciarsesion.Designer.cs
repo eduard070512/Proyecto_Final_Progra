@@ -45,7 +45,7 @@
             // pnliniciars
             // 
             this.pnliniciars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pnliniciars.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnliniciars.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnliniciars.Controls.Add(this.llnuevou);
             this.pnliniciars.Controls.Add(this.lblvalidarc);
             this.pnliniciars.Controls.Add(this.lblvalidarn);
@@ -58,17 +58,16 @@
             this.pnliniciars.Location = new System.Drawing.Point(128, 35);
             this.pnliniciars.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnliniciars.Name = "pnliniciars";
-            this.pnliniciars.Size = new System.Drawing.Size(360, 294);
+            this.pnliniciars.Size = new System.Drawing.Size(451, 350);
             this.pnliniciars.TabIndex = 0;
             // 
             // llnuevou
             // 
-            this.llnuevou.AutoSize = true;
             this.llnuevou.BackColor = System.Drawing.Color.Transparent;
-            this.llnuevou.Location = new System.Drawing.Point(189, 261);
+            this.llnuevou.Location = new System.Drawing.Point(252, 295);
             this.llnuevou.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llnuevou.Name = "llnuevou";
-            this.llnuevou.Size = new System.Drawing.Size(169, 16);
+            this.llnuevou.Size = new System.Drawing.Size(169, 15);
             this.llnuevou.TabIndex = 9;
             this.llnuevou.TabStop = true;
             this.llnuevou.Text = "CREAR NUEVO USUARIO";
@@ -79,7 +78,7 @@
             this.lblvalidarc.AutoSize = true;
             this.lblvalidarc.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarc.Location = new System.Drawing.Point(31, 137);
+            this.lblvalidarc.Location = new System.Drawing.Point(25, 145);
             this.lblvalidarc.Name = "lblvalidarc";
             this.lblvalidarc.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarc.TabIndex = 5;
@@ -89,7 +88,7 @@
             this.lblvalidarn.AutoSize = true;
             this.lblvalidarn.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarn.Location = new System.Drawing.Point(31, 73);
+            this.lblvalidarn.Location = new System.Drawing.Point(24, 79);
             this.lblvalidarn.Name = "lblvalidarn";
             this.lblvalidarn.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarn.TabIndex = 2;
@@ -98,10 +97,10 @@
             // 
             this.btniniciars.Image = ((System.Drawing.Image)(resources.GetObject("btniniciars.Image")));
             this.btniniciars.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btniniciars.Location = new System.Drawing.Point(34, 206);
+            this.btniniciars.Location = new System.Drawing.Point(26, 230);
             this.btniniciars.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniniciars.Name = "btniniciars";
-            this.btniniciars.Size = new System.Drawing.Size(292, 42);
+            this.btniniciars.Size = new System.Drawing.Size(395, 42);
             this.btniniciars.TabIndex = 7;
             this.btniniciars.Text = "INICIAR SESIÓN";
             this.btniniciars.UseVisualStyleBackColor = true;
@@ -109,17 +108,17 @@
             // 
             // txtcontrasena
             // 
-            this.txtcontrasena.Location = new System.Drawing.Point(35, 157);
+            this.txtcontrasena.Location = new System.Drawing.Point(26, 167);
             this.txtcontrasena.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtcontrasena.Name = "txtcontrasena";
-            this.txtcontrasena.Size = new System.Drawing.Size(289, 22);
+            this.txtcontrasena.Size = new System.Drawing.Size(395, 22);
             this.txtcontrasena.TabIndex = 6;
             // 
             // lblcontrasena
             // 
             this.lblcontrasena.AutoSize = true;
             this.lblcontrasena.BackColor = System.Drawing.Color.Transparent;
-            this.lblcontrasena.Location = new System.Drawing.Point(33, 121);
+            this.lblcontrasena.Location = new System.Drawing.Point(27, 129);
             this.lblcontrasena.Name = "lblcontrasena";
             this.lblcontrasena.Size = new System.Drawing.Size(183, 16);
             this.lblcontrasena.TabIndex = 4;
@@ -127,10 +126,10 @@
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(35, 90);
+            this.txtusuario.Location = new System.Drawing.Point(26, 103);
             this.txtusuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(289, 22);
+            this.txtusuario.Size = new System.Drawing.Size(395, 22);
             this.txtusuario.TabIndex = 3;
             this.txtusuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtusuario_KeyPress);
             // 
@@ -138,7 +137,7 @@
             // 
             this.lblusuario.AutoSize = true;
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
-            this.lblusuario.Location = new System.Drawing.Point(33, 58);
+            this.lblusuario.Location = new System.Drawing.Point(26, 64);
             this.lblusuario.Name = "lblusuario";
             this.lblusuario.Size = new System.Drawing.Size(234, 16);
             this.lblusuario.TabIndex = 1;
@@ -150,7 +149,7 @@
             this.lbltitulo.BackColor = System.Drawing.Color.Silver;
             this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(54, 11);
+            this.lbltitulo.Location = new System.Drawing.Point(64, 15);
             this.lbltitulo.Name = "lbltitulo";
             this.lbltitulo.Size = new System.Drawing.Size(318, 49);
             this.lbltitulo.TabIndex = 0;
@@ -158,9 +157,10 @@
             // 
             // iniciarsesion
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(702, 424);
             this.Controls.Add(this.pnliniciars);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

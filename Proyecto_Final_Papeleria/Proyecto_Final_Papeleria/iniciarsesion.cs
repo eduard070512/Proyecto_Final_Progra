@@ -38,12 +38,17 @@ namespace Proyecto_Final_Papeleria
             else
             {
                 menu menu = new menu(id);
+                menu.StartPosition = FormStartPosition.Manual;
+                menu.Location = new Point(this.Location.X, this.Location.Y);
                 menu.Show();
+                this.Close();
             }
         }
         private void llnuevou_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Verificar_Admin verificar = new Verificar_Admin(inicio, this);
+            verificar.StartPosition = FormStartPosition.Manual;
+            verificar.Location = new Point(this.Location.X + 128, this.Location.Y + 35);
             verificar.Show();
             this.Enabled = false;
         }

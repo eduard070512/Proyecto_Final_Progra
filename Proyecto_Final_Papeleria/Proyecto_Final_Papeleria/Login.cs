@@ -31,6 +31,8 @@ namespace Proyecto_Final_Papeleria
         private void lliniciars_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             iniciarsesion sesion = new iniciarsesion(inicio);
+            sesion.StartPosition = FormStartPosition.Manual;
+            sesion.Location = new Point(this.Location.X, this.Location.Y);
             sesion.Show();
             lblvalidarc.Hide();
             lblvalidarn.Hide();
@@ -51,6 +53,8 @@ namespace Proyecto_Final_Papeleria
                 {
                     this.Close();
                     menu menu = new menu(id);
+                    menu.StartPosition = FormStartPosition.Manual;
+                    menu.Location = new Point(this.Location.X, this.Location.Y);
                     menu.Show();
 
                 }

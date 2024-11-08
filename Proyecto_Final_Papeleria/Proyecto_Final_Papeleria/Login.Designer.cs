@@ -59,19 +59,20 @@
             this.pnlregistro.Controls.Add(this.lblusuario);
             this.pnlregistro.Controls.Add(this.lblprimeru);
             this.pnlregistro.Controls.Add(this.lbltitulo);
-            this.pnlregistro.Location = new System.Drawing.Point(128, 35);
-            this.pnlregistro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlregistro.Location = new System.Drawing.Point(96, 28);
+            this.pnlregistro.Margin = new System.Windows.Forms.Padding(2);
             this.pnlregistro.Name = "pnlregistro";
-            this.pnlregistro.Size = new System.Drawing.Size(360, 294);
+            this.pnlregistro.Size = new System.Drawing.Size(451, 350);
             this.pnlregistro.TabIndex = 0;
             // 
             // Chkadmin
             // 
             this.Chkadmin.AutoSize = true;
             this.Chkadmin.BackColor = System.Drawing.Color.Transparent;
-            this.Chkadmin.Location = new System.Drawing.Point(34, 184);
+            this.Chkadmin.Location = new System.Drawing.Point(26, 195);
+            this.Chkadmin.Margin = new System.Windows.Forms.Padding(2);
             this.Chkadmin.Name = "Chkadmin";
-            this.Chkadmin.Size = new System.Drawing.Size(244, 17);
+            this.Chkadmin.Size = new System.Drawing.Size(297, 20);
             this.Chkadmin.TabIndex = 12;
             this.Chkadmin.Text = "SELECCIONA SI EL USUARIO SERA ADMIN";
             this.Chkadmin.UseVisualStyleBackColor = false;
@@ -79,12 +80,10 @@
             // 
             // lliniciars
             // 
-            this.lliniciars.AutoSize = true;
             this.lliniciars.BackColor = System.Drawing.Color.Transparent;
-            this.lliniciars.Location = new System.Drawing.Point(235, 256);
-            this.lliniciars.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lliniciars.Location = new System.Drawing.Point(305, 287);
             this.lliniciars.Name = "lliniciars";
-            this.lliniciars.Size = new System.Drawing.Size(89, 13);
+            this.lliniciars.Size = new System.Drawing.Size(116, 22);
             this.lliniciars.TabIndex = 11;
             this.lliniciars.TabStop = true;
             this.lliniciars.Text = "INICIAR SESION";
@@ -96,9 +95,10 @@
             this.lblvalidarc.AutoSize = true;
             this.lblvalidarc.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarc.Location = new System.Drawing.Point(31, 137);
+            this.lblvalidarc.Location = new System.Drawing.Point(23, 146);
+            this.lblvalidarc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblvalidarc.Name = "lblvalidarc";
-            this.lblvalidarc.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarc.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarc.TabIndex = 5;
             // 
             // lblvalidarn
@@ -106,19 +106,20 @@
             this.lblvalidarn.AutoSize = true;
             this.lblvalidarn.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarn.Location = new System.Drawing.Point(31, 73);
+            this.lblvalidarn.Location = new System.Drawing.Point(23, 80);
+            this.lblvalidarn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblvalidarn.Name = "lblvalidarn";
-            this.lblvalidarn.Size = new System.Drawing.Size(0, 13);
+            this.lblvalidarn.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarn.TabIndex = 2;
             // 
             // btncrearu
             // 
             this.btncrearu.Image = ((System.Drawing.Image)(resources.GetObject("btncrearu.Image")));
             this.btncrearu.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btncrearu.Location = new System.Drawing.Point(34, 206);
-            this.btncrearu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btncrearu.Location = new System.Drawing.Point(26, 230);
+            this.btncrearu.Margin = new System.Windows.Forms.Padding(2);
             this.btncrearu.Name = "btncrearu";
-            this.btncrearu.Size = new System.Drawing.Size(292, 42);
+            this.btncrearu.Size = new System.Drawing.Size(395, 40);
             this.btncrearu.TabIndex = 7;
             this.btncrearu.Text = "CREAR USUARIO";
             this.btncrearu.UseVisualStyleBackColor = true;
@@ -126,28 +127,29 @@
             // 
             // txtcontrasena
             // 
-            this.txtcontrasena.Location = new System.Drawing.Point(35, 157);
-            this.txtcontrasena.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtcontrasena.Location = new System.Drawing.Point(26, 167);
+            this.txtcontrasena.Margin = new System.Windows.Forms.Padding(2);
             this.txtcontrasena.Name = "txtcontrasena";
-            this.txtcontrasena.Size = new System.Drawing.Size(289, 20);
+            this.txtcontrasena.Size = new System.Drawing.Size(395, 22);
             this.txtcontrasena.TabIndex = 6;
             // 
             // lblcontrasena
             // 
             this.lblcontrasena.AutoSize = true;
             this.lblcontrasena.BackColor = System.Drawing.Color.Transparent;
-            this.lblcontrasena.Location = new System.Drawing.Point(33, 121);
+            this.lblcontrasena.Location = new System.Drawing.Point(25, 133);
+            this.lblcontrasena.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(148, 13);
+            this.lblcontrasena.Size = new System.Drawing.Size(183, 16);
             this.lblcontrasena.TabIndex = 4;
             this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA";
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(35, 90);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtusuario.Location = new System.Drawing.Point(26, 103);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(289, 20);
+            this.txtusuario.Size = new System.Drawing.Size(395, 22);
             this.txtusuario.TabIndex = 3;
             this.txtusuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtusuario_KeyPress);
             // 
@@ -155,9 +157,10 @@
             // 
             this.lblusuario.AutoSize = true;
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
-            this.lblusuario.Location = new System.Drawing.Point(33, 58);
+            this.lblusuario.Location = new System.Drawing.Point(25, 65);
+            this.lblusuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(191, 13);
+            this.lblusuario.Size = new System.Drawing.Size(234, 16);
             this.lblusuario.TabIndex = 1;
             this.lblusuario.Text = "INGRESA EL NOMRBE DE USUARIO";
             // 
@@ -166,35 +169,37 @@
             this.lblprimeru.AutoSize = true;
             this.lblprimeru.BackColor = System.Drawing.Color.Transparent;
             this.lblprimeru.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lblprimeru.Location = new System.Drawing.Point(16, 256);
+            this.lblprimeru.Location = new System.Drawing.Point(23, 287);
+            this.lblprimeru.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblprimeru.Name = "lblprimeru";
-            this.lblprimeru.Size = new System.Drawing.Size(333, 26);
+            this.lblprimeru.Size = new System.Drawing.Size(409, 32);
             this.lblprimeru.TabIndex = 9;
             this.lblprimeru.Text = "NOTA: AUN NO SE HAN REGISTRADO USUARIOS.\r\nEL PRIMER USUARIO REGISTRADO SERA EL AD" +
     "MINISTRADOR\r\n";
             // 
             // lbltitulo
             // 
-            this.lbltitulo.AutoSize = true;
             this.lbltitulo.BackColor = System.Drawing.Color.Silver;
             this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(75, 11);
+            this.lbltitulo.Location = new System.Drawing.Point(92, 11);
+            this.lbltitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(210, 40);
+            this.lbltitulo.Size = new System.Drawing.Size(267, 45);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "REGISTRATE";
             // 
             // Login
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(702, 424);
             this.Controls.Add(this.pnlregistro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
