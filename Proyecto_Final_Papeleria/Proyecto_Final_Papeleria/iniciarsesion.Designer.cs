@@ -146,12 +146,11 @@
             // lbltitulo
             // 
             this.lbltitulo.AutoSize = true;
-            this.lbltitulo.BackColor = System.Drawing.Color.Silver;
-            this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(64, 15);
+            this.lbltitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbltitulo.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitulo.Location = new System.Drawing.Point(42, 14);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(318, 49);
+            this.lbltitulo.Size = new System.Drawing.Size(359, 48);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "INICIAR SESION";
             // 
@@ -159,7 +158,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(120)))), ((int)(((byte)(171)))));
             this.ClientSize = new System.Drawing.Size(702, 424);
             this.Controls.Add(this.pnliniciars);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -169,6 +168,8 @@
             this.Name = "iniciarsesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "iniciarsesion";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.iniciarsesion_FormClosing);
+            this.Load += new System.EventHandler(this.iniciarsesion_Load);
             this.pnliniciars.ResumeLayout(false);
             this.pnliniciars.PerformLayout();
             this.ResumeLayout(false);

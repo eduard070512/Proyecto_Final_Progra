@@ -19,6 +19,10 @@ namespace Proyecto_Final_Papeleria
             InitializeComponent();
             this.inicio = inicio;
         }
+        private void Login_Load(object sender, EventArgs e)
+        {
+            inicio.presiono = 1;
+        }
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblvalidarn.Hide();
@@ -36,6 +40,7 @@ namespace Proyecto_Final_Papeleria
             sesion.Show();
             lblvalidarc.Hide();
             lblvalidarn.Hide();
+            inicio.presiono = 0;
             this.Close();
         }
         private void btncrearu_Click(object sender, EventArgs e)
@@ -51,8 +56,9 @@ namespace Proyecto_Final_Papeleria
                 if (id == -1) MessageBox.Show("No se pudo guardar el usuario", "ERROR");
                 else
                 {
+                    inicio.presiono = 0;
                     this.Close();
-                    menu menu = new menu(id);
+                    menu menu = new menu(id,inicio);
                     menu.StartPosition = FormStartPosition.Manual;
                     menu.Location = new Point(this.Location.X, this.Location.Y);
                     menu.Show();
@@ -60,5 +66,18 @@ namespace Proyecto_Final_Papeleria
                 }
             }
         }
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (inicio.cerrando == 0 && inicio.presiono ==1)
+            {
+                e.Cancel = true;
+                cerrar cerrar = new cerrar(inicio);
+                cerrar.StartPosition = FormStartPosition.Manual;
+                cerrar.Location = new Point(this.Location.X + 198, this.Location.Y + 142);
+                cerrar.ShowDialog();
+            }
+        }
+
+        
     }
 }

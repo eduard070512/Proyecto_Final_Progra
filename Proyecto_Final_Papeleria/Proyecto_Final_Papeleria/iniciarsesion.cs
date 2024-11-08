@@ -18,6 +18,10 @@ namespace Proyecto_Final_Papeleria
             InitializeComponent();
             this.inicio = inicio;
         }
+        private void iniciarsesion_Load(object sender, EventArgs e)
+        {
+            inicio.presiono = 1;
+        }
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblvalidarn.Hide();
@@ -37,10 +41,11 @@ namespace Proyecto_Final_Papeleria
             if (id == -1) inicio.errores(3, lblvalidarn);
             else
             {
-                menu menu = new menu(id);
+                menu menu = new menu(id,inicio);
                 menu.StartPosition = FormStartPosition.Manual;
                 menu.Location = new Point(this.Location.X, this.Location.Y);
                 menu.Show();
+                inicio.presiono = 0;
                 this.Close();
             }
         }
@@ -49,8 +54,21 @@ namespace Proyecto_Final_Papeleria
             Verificar_Admin verificar = new Verificar_Admin(inicio, this);
             verificar.StartPosition = FormStartPosition.Manual;
             verificar.Location = new Point(this.Location.X + 128, this.Location.Y + 35);
-            verificar.Show();
-            this.Enabled = false;
+            verificar.ShowDialog();
         }
+
+        private void iniciarsesion_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (inicio.cerrando == 0 && inicio.presiono ==1)
+            {
+                e.Cancel = true;
+                cerrar cerrar = new cerrar(inicio);
+                cerrar.StartPosition = FormStartPosition.Manual;
+                cerrar.Location = new Point(this.Location.X + 198, this.Location.Y + 142);
+                cerrar.ShowDialog();
+            }
+        }
+
+        
     }
 }

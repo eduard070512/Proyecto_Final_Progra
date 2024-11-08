@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cerrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cerrar.Designer.cs">
+      <DependentUpon>cerrar.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_modificar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     <Compile Include="Verificar_Admin.Designer.cs">
       <DependentUpon>Verificar_Admin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="cerrar.resx">
+      <DependentUpon>cerrar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_modificar.resx">
       <DependentUpon>F_modificar.cs</DependentUpon>
     </EmbeddedResource>

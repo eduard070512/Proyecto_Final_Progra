@@ -46,8 +46,7 @@
             // 
             // pnlregistro
             // 
-            this.pnlregistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pnlregistro.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlregistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(184)))), ((int)(((byte)(196)))));
             this.pnlregistro.Controls.Add(this.Chkadmin);
             this.pnlregistro.Controls.Add(this.lliniciars);
             this.pnlregistro.Controls.Add(this.lblvalidarc);
@@ -62,7 +61,7 @@
             this.pnlregistro.Location = new System.Drawing.Point(96, 28);
             this.pnlregistro.Margin = new System.Windows.Forms.Padding(2);
             this.pnlregistro.Name = "pnlregistro";
-            this.pnlregistro.Size = new System.Drawing.Size(451, 350);
+            this.pnlregistro.Size = new System.Drawing.Size(482, 350);
             this.pnlregistro.TabIndex = 0;
             // 
             // Chkadmin
@@ -179,13 +178,12 @@
             // 
             // lbltitulo
             // 
-            this.lbltitulo.BackColor = System.Drawing.Color.Silver;
-            this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(92, 11);
+            this.lbltitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbltitulo.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitulo.Location = new System.Drawing.Point(102, 11);
             this.lbltitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(267, 45);
+            this.lbltitulo.Size = new System.Drawing.Size(281, 45);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "REGISTRATE";
             // 
@@ -193,8 +191,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(234)))));
             this.ClientSize = new System.Drawing.Size(702, 424);
             this.Controls.Add(this.pnlregistro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -204,6 +201,8 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PAPELERIA LOGIN";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_FormClosing);
+            this.Load += new System.EventHandler(this.Login_Load);
             this.pnlregistro.ResumeLayout(false);
             this.pnlregistro.PerformLayout();
             this.ResumeLayout(false);

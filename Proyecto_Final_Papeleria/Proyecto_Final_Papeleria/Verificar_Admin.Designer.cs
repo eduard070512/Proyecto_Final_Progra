@@ -60,15 +60,17 @@
             this.pnlverificar.Name = "pnlverificar";
             this.pnlverificar.Size = new System.Drawing.Size(479, 345);
             this.pnlverificar.TabIndex = 0;
+            this.pnlverificar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlverificar_Paint);
             // 
             // lblverificar
             // 
             this.lblverificar.AutoSize = true;
             this.lblverificar.BackColor = System.Drawing.Color.Transparent;
-            this.lblverificar.Location = new System.Drawing.Point(66, 79);
+            this.lblverificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblverificar.Location = new System.Drawing.Point(44, 67);
             this.lblverificar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblverificar.Name = "lblverificar";
-            this.lblverificar.Size = new System.Drawing.Size(367, 48);
+            this.lblverificar.Size = new System.Drawing.Size(405, 54);
             this.lblverificar.TabIndex = 1;
             this.lblverificar.Text = "Para crear un nuevo usuario deberas verificar que tienes los \r\npermisos para crea" +
     "rlo iniciando sesion como administrador.\r\nNOTA: El administrador es el primer us" +
@@ -119,9 +121,10 @@
             // 
             this.lblcontrasena.AutoSize = true;
             this.lblcontrasena.BackColor = System.Drawing.Color.Transparent;
+            this.lblcontrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcontrasena.Location = new System.Drawing.Point(67, 212);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(328, 16);
+            this.lblcontrasena.Size = new System.Drawing.Size(362, 18);
             this.lblcontrasena.TabIndex = 5;
             this.lblcontrasena.Text = "INGRESA LA CONTRASEÑA DEL ADMINISTRADOR\r\n";
             // 
@@ -138,21 +141,21 @@
             // 
             this.lblusuario.AutoSize = true;
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
+            this.lblusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblusuario.Location = new System.Drawing.Point(67, 138);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(293, 16);
+            this.lblusuario.Size = new System.Drawing.Size(327, 18);
             this.lblusuario.TabIndex = 2;
             this.lblusuario.Text = "INGRESA EL NOMRBE DEL ADMINISTRADOR\r\n";
             // 
             // lbltitulo
             // 
             this.lbltitulo.AutoSize = true;
-            this.lbltitulo.BackColor = System.Drawing.Color.Silver;
-            this.lbltitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbltitulo.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitulo.Location = new System.Drawing.Point(23, 16);
+            this.lbltitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbltitulo.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitulo.Location = new System.Drawing.Point(3, 9);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(429, 49);
+            this.lbltitulo.Size = new System.Drawing.Size(477, 48);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "NECESITAS PERMISOS";
             // 

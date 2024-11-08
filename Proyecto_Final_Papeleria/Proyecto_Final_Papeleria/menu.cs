@@ -12,14 +12,33 @@ namespace Proyecto_Final_Papeleria
 {
     public partial class menu : Form
     {
-        public menu(int id)
+        private inicio inicio;
+        public menu(int id, inicio inicio)
         {
             InitializeComponent();
+            this.inicio = inicio;
         }
 
         private void menu_Load(object sender, EventArgs e)
         {
- 
+            inicio.presiono = 1;
+        }
+
+        private void btnagregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (inicio.cerrando == 0 && inicio.presiono ==1)
+            {
+                e.Cancel = true;
+                cerrar cerrar = new cerrar(inicio);
+                cerrar.StartPosition = FormStartPosition.Manual;
+                cerrar.Location = new Point(this.Location.X + 198, this.Location.Y + 142);
+                cerrar.ShowDialog();
+            }
         }
     }
 }

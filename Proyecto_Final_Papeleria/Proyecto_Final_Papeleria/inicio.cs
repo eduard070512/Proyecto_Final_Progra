@@ -16,6 +16,8 @@ namespace Proyecto_Final_Papeleria
         public string cadena_conexion;
         OleDbConnection conn;
         public int admin;
+        public int cerrando = 0;
+        public int presiono = 0;
         public inicio()
         {
             InitializeComponent();
@@ -136,6 +138,21 @@ namespace Proyecto_Final_Papeleria
                 login.Location = new Point(this.Location.X, this.Location.Y);
                 login.Show();
             }
+        }
+        private void Pbcerrar_Click(object sender, EventArgs e)
+        {
+            cerrar cerrar = new cerrar(this);
+            cerrar.StartPosition = FormStartPosition.Manual;
+            cerrar.Location = new Point(this.Location.X+198, this.Location.Y+142);
+            cerrar.ShowDialog();
+        }
+        private void Pbcerrar_MouseEnter(object sender, EventArgs e)
+        {
+            Pbcerrar.BackColor = Color.Silver;
+        }
+        private void Pbcerrar_MouseLeave(object sender, EventArgs e)
+        {
+            Pbcerrar.BackColor= Color.FromArgb(255, 247, 234);
         }
     }
 }

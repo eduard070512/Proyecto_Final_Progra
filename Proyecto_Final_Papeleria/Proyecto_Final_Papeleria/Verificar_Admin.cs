@@ -20,6 +20,10 @@ namespace Proyecto_Final_Papeleria
             this.inicio = inicio;
             this.sesion = sesion;
         }
+        private void pnlverificar_Paint(object sender, PaintEventArgs e)
+        {
+            inicio.presiono = 1;
+        }
         private void txtusuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblvalidarn.Hide();
@@ -49,6 +53,7 @@ namespace Proyecto_Final_Papeleria
                         login.Chkadmin.Show();
                         login.lblprimeru.Hide();
                         login.Show();
+                        inicio.presiono = 0;
                         sesion.Close();
                         this.Close();
                     }
@@ -57,5 +62,7 @@ namespace Proyecto_Final_Papeleria
                 else inicio.errores(3,lblvalidarn);
             }
         }
+
+        
     }
 }
