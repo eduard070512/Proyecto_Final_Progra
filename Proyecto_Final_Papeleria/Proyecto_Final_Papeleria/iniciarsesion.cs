@@ -41,7 +41,7 @@ namespace Proyecto_Final_Papeleria
             if (id == -1) inicio.errores(3, lblvalidarn);
             else
             {
-                menu menu = new menu(id,inicio);
+                menu menu = new menu(id,inicio,txtusuario.Text);
                 menu.StartPosition = FormStartPosition.Manual;
                 menu.Location = new Point(this.Location.X, this.Location.Y);
                 menu.Show();

@@ -51,14 +51,15 @@ namespace Proyecto_Final_Papeleria
             else if (txtcontrasena.Text.Length < 8) inicio.errores(2, lblvalidarc);
             else
             {
-                if (Chkadmin.Checked) inicio.admin = 1;
-                int id = inicio.crearusuario(txtusuario.Text, txtcontrasena.Text, inicio.admin);
+                int id;
+                if (Chkadmin.Checked) id = inicio.crearusuario(txtusuario.Text, txtcontrasena.Text, 1);
+                else id = inicio.crearusuario(txtusuario.Text, txtcontrasena.Text, 0);
                 if (id == -1) MessageBox.Show("No se pudo guardar el usuario", "ERROR");
                 else
                 {
                     inicio.presiono = 0;
                     this.Close();
-                    menu menu = new menu(id,inicio);
+                    menu menu = new menu(id,inicio,txtusuario.Text);
                     menu.StartPosition = FormStartPosition.Manual;
                     menu.Location = new Point(this.Location.X, this.Location.Y);
                     menu.Show();

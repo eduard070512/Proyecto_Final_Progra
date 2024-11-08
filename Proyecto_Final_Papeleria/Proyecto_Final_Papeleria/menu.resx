@@ -128,6 +128,45 @@ Si deseas cambiar de usuario selecciona "usuarios"
 </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Pbusuario.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAffvAAH37wGx1VYpAAAAB3RJ
+        TUUH5gIVDhMtP2CWHwAAB4RJREFUeF7dm2WoLVUUgK+BimIXoiB2oIjYhfjH/KGiYoBd2IWCiordgYoo
+        KhjPDjDA+mFgK4rdYovdnd93uHNZd98558zdM3PPeW/BB+/Nmdl7r5m996p9R1qUmWA+WB/2hjPhYXgb
+        PoKf4Z9R/PfH4G+PwrmwL2wI84NtTTeyAGwKp8Pj8DX8Bf9NEp/5Bp4AX95msCAMpcwMy8IR8CT8CmVK
+        1cE2n4YjYQWwz4GLU3NpOBHeg3+hbPBl/A1/jOK/y+4pwz4+gFNhORjY8nBtHgxvQi/Fncqfgmv7OrgA
+        DoEdYAvYHLYfvXY+XAuPgHvCn1DWptine8ZB4FimTHzja8Ld0G1te/11uAp2gZVgTqgybb3He5eHHeFK
+        eBW6vQz7uhfWgdZnw+ywB3wIZYNxN38A3PUXhybWqUotBrvDffATlPXtjNkHHGMrMi+cASqZdu46fgi2
+        hbmgLXFmbA2+5N8hHccv4DJqfEksDE7Fss3qHXAdzgNTJXODfsIbkI5Hv8J9ZBFoRFR+GqQbnWvvTlgV
+        BiUrwi2Q7kWO9Sao/RL05PzyqfI/gmbI3wctzryT4HuIY3TM10D2GGcD13w67fXOnPKzwrDILOAG+BXE
+        sbocNLtZG+OekG54Ku8OX2d391k3qTVg41E0q7rQddvdFdKX4Ma4H0xK1oLU1Dnt/fK5g/QrbAIXwfPw
+        LejeynfwAlwC3jMH5Igm05nwA8SxG3ytB5XEr6OTExtwGbjmc6e9Lqt7STqwMnzRrt2VIUdcDidAujFq
+        Op1lfUX3Nn34DsjdTHzzfvHYXhVego0gR/RZtA6xPT/iUdBTjOhS26q/nWvqVgfd2NjeZHAsa0OOrALG
+        KbE9/6+OXUVzEh/Q/z4QckQb7LSL7eVgYJRrz92w9VJje+dAqbhODWnjzQ+C0ylHDgXNUGwvB+350ZAj
+        +gj3QGzvXVDXCWKiId6oCdS3zxG/2LMQ26vDc6BHmiNbQmrOj4dx4u5oJifedD/kBjbG+b9BbK8OtqUi
+        OaIOqVV7CsZZBPNtMY3ljun6yZXDIHbYBHqluWJOInq06jruhZrAjJ2ZzFgCcuViiO01wRWQK+qiTrE9
+        na6OaN/N3sYfr4bc7IrPGY7G9prANutkfNKPos4d38a8vanr4genilOmjujuxs6aoM4MUMw7RgfPmEHd
+        O2s95ts+AXN4dURvsmivKU6DOqJOJmeL9nwZHR/nrNELBWZv66a1LIzETbUutmWbdUSd1C22ez10ylXx
+        oqnrOmtNWQhSs1oHzVbdqpA6GZDFdvUyR94KF8QEQhOyP0TTk4ttWHFqQg6H2La6d2LleNECRROio5E6
+        IDmYCq8UxlYQEyOxbXUf5yb6tq3YNCWrwYsQO50Mr4CZo6ZE3eKstMYwLmAxctKNbVLMLlnULPqoijmE
+        jplqUNQtRofqPu4FWGzQLW5aloRL4Uso+uqG9vkysOjatKhbLKh0XkBcAtrG7aANMZ22LrjJao6KQxJi
+        Wctr/mYGqa2Ms7pFZ6izBOy8uCAmPtsUzZE22cyMJ0DE+Nxrdc1vP7GaFHXtbIKmvOJFa2szqqRRascM
+        6gzEi2Zk2/4SgxB1Mp6IurrsRs4OF8QXYhV2RpOurrDrIm4MBkMWHeuK+Xl3f02PXuGxYELSJdYLT4h5
+        r8/47FLQxKaoTupW6KnOBm0jG0AMh/1hJ8gVZ4+By+Vg6bysjl8VbbaJWk+aaMLqBGnmN+OHVmd1bywh
+        YslMp+dmSJOQTWCN7zbQlOaU5y6E2N5YQkTxHF780WKGR1yqinU/p2ycYm3xGRwAk6kfqktaoBlLiSme
+        1Irxu1PFs0BVxGl5MjQZ//fDvvxoVZeEh63i9Pf5rWBMjLWNuWMnVdLibk7HQVp9mQrMYlnJ6rdBqsNd
+        EJ8tzS+UFUa2gV5idFWl4tsW9r0z9BItSbonebBzgmgm3od4o7W9bqUxgxUruPH+QfAydAucLI2lOQl1
+        9KhtqZwC8WandrfTFa77eO8g0Xcos1ruY+ny7FocVTydmabILFGnhxUMZCwyxvsGiWNZBqKYBX4N4n3G
+        PerYU4wG444p2vZ4DnAvSE+ODRLH0vHqRsWxerQv3mMm6BjoKx6RSUvKvhB3XN1buRHi78PA7VCMz+pv
+        +hG1apVPkHrwOM0TeA7PA0iWqevk+drCMTm23SA9M6iDZt5hUqKyup+xoS/ArI0nvOL1YcAjfBZ5Pg/X
+        RKcnLo/Kont7HqSnPPz/MK3/AseUTnvHagyQfYLcNWOCZBgV7odjvgFq1xRcV25609NLcKy3wqLQiHjm
+        x5nQRKmrbRyjH6wx5QsxdnYDbCPWbwo3bdd8U6W0CeJmYgotrScOA9b+3e2zN7yqos9tVsZAKd11B4Fj
+        cCza+SnNZmshDKH7/dlcW9inOUfd28oeXhtiEGJq3YBkKl6EffiHk0aABjZT+tW7iUlKX4TZIbMtbaTH
+        bPMZMCYxd5H7dwuti9PRQ4geSzPzarU3Z6/wmeKPp60s22Zru3sb4tTUdFrt9TSWVRgrM+YbtCJWZnVV
+        pagQ+9tjYCjrSRXz9rbR0jQfGfkfMyD4nzMXRjYAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAYGAAAAEAIAColAAAFgAAACgAAABgAAAAwAAAAAEAIAAAAAAAAJAAAP4+AAD+PgAAAAAAAAAA

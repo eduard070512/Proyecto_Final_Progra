@@ -13,10 +13,12 @@ namespace Proyecto_Final_Papeleria
     public partial class menu : Form
     {
         private inicio inicio;
-        public menu(int id, inicio inicio)
+        public string nombre;
+        public menu(int id, inicio inicio, string nombre)
         {
             InitializeComponent();
             this.inicio = inicio;
+            this.nombre = nombre;
         }
 
         private void menu_Load(object sender, EventArgs e)

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu));
             this.pnlnavbar = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnagregar = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btnbuscar = new System.Windows.Forms.Button();
@@ -39,9 +40,11 @@
             this.lblintroduccion = new System.Windows.Forms.Label();
             this.lbltituloi = new System.Windows.Forms.Label();
             this.pnltitulo = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Pbusuario = new System.Windows.Forms.PictureBox();
+            this.pnlperfil = new System.Windows.Forms.Panel();
             this.pnlnavbar.SuspendLayout();
             this.pnltitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pbusuario)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlnavbar
@@ -57,6 +60,16 @@
             this.pnlnavbar.Name = "pnlnavbar";
             this.pnlnavbar.Size = new System.Drawing.Size(706, 49);
             this.pnlnavbar.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
+            this.button1.Location = new System.Drawing.Point(581, 10);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 27);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "AGREGAR";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // btnagregar
             // 
@@ -113,11 +126,11 @@
             // 
             this.lbltitulo.AutoSize = true;
             this.lbltitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lbltitulo.Font = new System.Drawing.Font("Ravie", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitulo.Font = new System.Drawing.Font("Ravie", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(122)))), ((int)(((byte)(167)))));
             this.lbltitulo.Location = new System.Drawing.Point(-12, 0);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(693, 57);
+            this.lbltitulo.Size = new System.Drawing.Size(646, 54);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "PAPELERIA MAC BEEPD";
             // 
@@ -148,6 +161,8 @@
             // 
             this.pnltitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(188)))), ((int)(((byte)(197)))));
             this.pnltitulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnltitulo.Controls.Add(this.pnlperfil);
+            this.pnltitulo.Controls.Add(this.Pbusuario);
             this.pnltitulo.Controls.Add(this.lbltitulo);
             this.pnltitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnltitulo.Location = new System.Drawing.Point(0, 0);
@@ -155,15 +170,22 @@
             this.pnltitulo.Size = new System.Drawing.Size(702, 55);
             this.pnltitulo.TabIndex = 1;
             // 
-            // button1
+            // Pbusuario
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
-            this.button1.Location = new System.Drawing.Point(581, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 27);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "AGREGAR";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Pbusuario.Image = ((System.Drawing.Image)(resources.GetObject("Pbusuario.Image")));
+            this.Pbusuario.Location = new System.Drawing.Point(644, 5);
+            this.Pbusuario.Name = "Pbusuario";
+            this.Pbusuario.Size = new System.Drawing.Size(45, 45);
+            this.Pbusuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pbusuario.TabIndex = 1;
+            this.Pbusuario.TabStop = false;
+            // 
+            // pnlperfil
+            // 
+            this.pnlperfil.Location = new System.Drawing.Point(502, 34);
+            this.pnlperfil.Name = "pnlperfil";
+            this.pnlperfil.Size = new System.Drawing.Size(202, 426);
+            this.pnlperfil.TabIndex = 4;
             // 
             // menu
             // 
@@ -186,6 +208,7 @@
             this.pnlnavbar.ResumeLayout(false);
             this.pnltitulo.ResumeLayout(false);
             this.pnltitulo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pbusuario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,5 +227,7 @@
         private System.Windows.Forms.Label lbltituloi;
         private System.Windows.Forms.Panel pnltitulo;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox Pbusuario;
+        private System.Windows.Forms.Panel pnlperfil;
     }
 }

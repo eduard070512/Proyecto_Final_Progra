@@ -64,10 +64,10 @@
             // llnuevou
             // 
             this.llnuevou.BackColor = System.Drawing.Color.Transparent;
-            this.llnuevou.Location = new System.Drawing.Point(252, 295);
+            this.llnuevou.Location = new System.Drawing.Point(245, 295);
             this.llnuevou.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llnuevou.Name = "llnuevou";
-            this.llnuevou.Size = new System.Drawing.Size(169, 15);
+            this.llnuevou.Size = new System.Drawing.Size(176, 21);
             this.llnuevou.TabIndex = 9;
             this.llnuevou.TabStop = true;
             this.llnuevou.Text = "CREAR NUEVO USUARIO";

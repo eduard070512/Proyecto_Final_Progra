@@ -139,7 +139,6 @@
             this.Name = "inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "inicio";
-            this.Load += new System.EventHandler(this.inicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PBlogo)).EndInit();
             this.pnlizq.ResumeLayout(false);
             this.pnlfondo.ResumeLayout(false);

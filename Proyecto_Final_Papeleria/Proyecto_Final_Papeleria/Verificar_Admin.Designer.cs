@@ -81,7 +81,7 @@
             this.lblvalidarc.AutoSize = true;
             this.lblvalidarc.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarc.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarc.Location = new System.Drawing.Point(65, 229);
+            this.lblvalidarc.Location = new System.Drawing.Point(65, 236);
             this.lblvalidarc.Name = "lblvalidarc";
             this.lblvalidarc.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarc.TabIndex = 6;
@@ -91,7 +91,7 @@
             this.lblvalidarn.AutoSize = true;
             this.lblvalidarn.BackColor = System.Drawing.Color.Transparent;
             this.lblvalidarn.ForeColor = System.Drawing.Color.Red;
-            this.lblvalidarn.Location = new System.Drawing.Point(65, 158);
+            this.lblvalidarn.Location = new System.Drawing.Point(65, 140);
             this.lblvalidarn.Name = "lblvalidarn";
             this.lblvalidarn.Size = new System.Drawing.Size(0, 16);
             this.lblvalidarn.TabIndex = 3;
@@ -111,7 +111,7 @@
             // 
             // txtcontrasena
             // 
-            this.txtcontrasena.Location = new System.Drawing.Point(69, 247);
+            this.txtcontrasena.Location = new System.Drawing.Point(69, 254);
             this.txtcontrasena.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtcontrasena.Name = "txtcontrasena";
             this.txtcontrasena.Size = new System.Drawing.Size(341, 22);
@@ -142,7 +142,7 @@
             this.lblusuario.AutoSize = true;
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
             this.lblusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblusuario.Location = new System.Drawing.Point(67, 138);
+            this.lblusuario.Location = new System.Drawing.Point(67, 124);
             this.lblusuario.Name = "lblusuario";
             this.lblusuario.Size = new System.Drawing.Size(327, 18);
             this.lblusuario.TabIndex = 2;
