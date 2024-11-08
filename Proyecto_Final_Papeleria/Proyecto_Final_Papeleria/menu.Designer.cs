@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu));
             this.pnlnavbar = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.lblintroduccion = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnagregar = new System.Windows.Forms.Button();
-            this.btnmodificar = new System.Windows.Forms.Button();
-            this.btnbuscar = new System.Windows.Forms.Button();
-            this.btnventa = new System.Windows.Forms.Button();
             this.btninicio = new System.Windows.Forms.Button();
             this.lbltitulo = new System.Windows.Forms.Label();
-            this.lblintroduccion = new System.Windows.Forms.Label();
             this.lbltituloi = new System.Windows.Forms.Label();
             this.pnltitulo = new System.Windows.Forms.Panel();
             this.Pbusuario = new System.Windows.Forms.PictureBox();
-            this.pnlperfil = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.pnlnavbar.SuspendLayout();
             this.pnltitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbusuario)).BeginInit();
@@ -50,74 +50,85 @@
             // pnlnavbar
             // 
             this.pnlnavbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(135)))), ((int)(((byte)(173)))));
+            this.pnlnavbar.Controls.Add(this.button6);
+            this.pnlnavbar.Controls.Add(this.button5);
+            this.pnlnavbar.Controls.Add(this.button4);
+            this.pnlnavbar.Controls.Add(this.button3);
+            this.pnlnavbar.Controls.Add(this.button2);
             this.pnlnavbar.Controls.Add(this.button1);
-            this.pnlnavbar.Controls.Add(this.btnagregar);
-            this.pnlnavbar.Controls.Add(this.btnmodificar);
-            this.pnlnavbar.Controls.Add(this.btnbuscar);
-            this.pnlnavbar.Controls.Add(this.btnventa);
             this.pnlnavbar.Controls.Add(this.btninicio);
             this.pnlnavbar.Location = new System.Drawing.Point(-1, 55);
             this.pnlnavbar.Name = "pnlnavbar";
-            this.pnlnavbar.Size = new System.Drawing.Size(706, 49);
+            this.pnlnavbar.Size = new System.Drawing.Size(140, 370);
             this.pnlnavbar.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
+            this.button5.Location = new System.Drawing.Point(13, 319);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(107, 38);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "INICIO";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
+            this.button4.Location = new System.Drawing.Point(13, 220);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(107, 38);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "INICIO";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
+            this.button3.Location = new System.Drawing.Point(13, 62);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(107, 38);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "INICIO";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // lblintroduccion
+            // 
+            this.lblintroduccion.AutoSize = true;
+            this.lblintroduccion.BackColor = System.Drawing.Color.Transparent;
+            this.lblintroduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblintroduccion.Location = new System.Drawing.Point(155, 167);
+            this.lblintroduccion.Name = "lblintroduccion";
+            this.lblintroduccion.Size = new System.Drawing.Size(632, 175);
+            this.lblintroduccion.TabIndex = 2;
+            this.lblintroduccion.Text = resources.GetString("lblintroduccion.Text");
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
+            this.button2.Location = new System.Drawing.Point(13, 112);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 38);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "INICIO";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
-            this.button1.Location = new System.Drawing.Point(581, 10);
+            this.button1.Location = new System.Drawing.Point(13, 165);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 27);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "AGREGAR";
+            this.button1.Size = new System.Drawing.Size(107, 38);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "INICIO";
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // btnagregar
-            // 
-            this.btnagregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
-            this.btnagregar.Location = new System.Drawing.Point(468, 10);
-            this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(110, 27);
-            this.btnagregar.TabIndex = 4;
-            this.btnagregar.Text = "AGREGAR";
-            this.btnagregar.UseVisualStyleBackColor = false;
-            this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
-            // 
-            // btnmodificar
-            // 
-            this.btnmodificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
-            this.btnmodificar.Location = new System.Drawing.Point(355, 10);
-            this.btnmodificar.Name = "btnmodificar";
-            this.btnmodificar.Size = new System.Drawing.Size(110, 27);
-            this.btnmodificar.TabIndex = 3;
-            this.btnmodificar.Text = "MODIFICAR";
-            this.btnmodificar.UseVisualStyleBackColor = false;
-            // 
-            // btnbuscar
-            // 
-            this.btnbuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
-            this.btnbuscar.Location = new System.Drawing.Point(241, 10);
-            this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(110, 27);
-            this.btnbuscar.TabIndex = 2;
-            this.btnbuscar.Text = "BUSCAR";
-            this.btnbuscar.UseVisualStyleBackColor = false;
-            // 
-            // btnventa
-            // 
-            this.btnventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
-            this.btnventa.Location = new System.Drawing.Point(127, 10);
-            this.btnventa.Name = "btnventa";
-            this.btnventa.Size = new System.Drawing.Size(110, 27);
-            this.btnventa.TabIndex = 1;
-            this.btnventa.Text = "VENTA";
-            this.btnventa.UseVisualStyleBackColor = false;
             // 
             // btninicio
             // 
             this.btninicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
-            this.btninicio.Location = new System.Drawing.Point(13, 10);
+            this.btninicio.Location = new System.Drawing.Point(13, 15);
             this.btninicio.Name = "btninicio";
-            this.btninicio.Size = new System.Drawing.Size(110, 27);
+            this.btninicio.Size = new System.Drawing.Size(107, 38);
             this.btninicio.TabIndex = 0;
             this.btninicio.Text = "INICIO";
             this.btninicio.UseVisualStyleBackColor = false;
@@ -126,31 +137,20 @@
             // 
             this.lbltitulo.AutoSize = true;
             this.lbltitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lbltitulo.Font = new System.Drawing.Font("Ravie", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitulo.Font = new System.Drawing.Font("Rockwell", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(122)))), ((int)(((byte)(167)))));
-            this.lbltitulo.Location = new System.Drawing.Point(-12, 0);
+            this.lbltitulo.Location = new System.Drawing.Point(34, 2);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(646, 54);
+            this.lbltitulo.Size = new System.Drawing.Size(547, 52);
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "PAPELERIA MAC BEEPD";
-            // 
-            // lblintroduccion
-            // 
-            this.lblintroduccion.AutoSize = true;
-            this.lblintroduccion.BackColor = System.Drawing.Color.Transparent;
-            this.lblintroduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblintroduccion.Location = new System.Drawing.Point(18, 207);
-            this.lblintroduccion.Name = "lblintroduccion";
-            this.lblintroduccion.Size = new System.Drawing.Size(632, 175);
-            this.lblintroduccion.TabIndex = 2;
-            this.lblintroduccion.Text = resources.GetString("lblintroduccion.Text");
             // 
             // lbltituloi
             // 
             this.lbltituloi.AutoSize = true;
             this.lbltituloi.BackColor = System.Drawing.Color.Transparent;
             this.lbltituloi.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltituloi.Location = new System.Drawing.Point(18, 127);
+            this.lbltituloi.Location = new System.Drawing.Point(176, 52);
             this.lbltituloi.Name = "lbltituloi";
             this.lbltituloi.Size = new System.Drawing.Size(644, 56);
             this.lbltituloi.TabIndex = 3;
@@ -161,7 +161,6 @@
             // 
             this.pnltitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(188)))), ((int)(((byte)(197)))));
             this.pnltitulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnltitulo.Controls.Add(this.pnlperfil);
             this.pnltitulo.Controls.Add(this.Pbusuario);
             this.pnltitulo.Controls.Add(this.lbltitulo);
             this.pnltitulo.Dock = System.Windows.Forms.DockStyle.Top;
@@ -180,12 +179,15 @@
             this.Pbusuario.TabIndex = 1;
             this.Pbusuario.TabStop = false;
             // 
-            // pnlperfil
+            // button6
             // 
-            this.pnlperfil.Location = new System.Drawing.Point(502, 34);
-            this.pnlperfil.Name = "pnlperfil";
-            this.pnlperfil.Size = new System.Drawing.Size(202, 426);
-            this.pnlperfil.TabIndex = 4;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(186)))));
+            this.button6.Location = new System.Drawing.Point(13, 264);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(107, 38);
+            this.button6.TabIndex = 6;
+            this.button6.Text = "INICIO";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // menu
             // 
@@ -194,9 +196,9 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(244)))), ((int)(((byte)(235)))));
             this.ClientSize = new System.Drawing.Size(702, 424);
             this.Controls.Add(this.lbltituloi);
-            this.Controls.Add(this.lblintroduccion);
             this.Controls.Add(this.pnltitulo);
             this.Controls.Add(this.pnlnavbar);
+            this.Controls.Add(this.lblintroduccion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -219,15 +221,15 @@
         private System.Windows.Forms.Panel pnlnavbar;
         private System.Windows.Forms.Label lbltitulo;
         private System.Windows.Forms.Button btninicio;
-        private System.Windows.Forms.Button btnagregar;
-        private System.Windows.Forms.Button btnmodificar;
-        private System.Windows.Forms.Button btnbuscar;
-        private System.Windows.Forms.Button btnventa;
         private System.Windows.Forms.Label lblintroduccion;
         private System.Windows.Forms.Label lbltituloi;
         private System.Windows.Forms.Panel pnltitulo;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox Pbusuario;
-        private System.Windows.Forms.Panel pnlperfil;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
