@@ -58,7 +58,7 @@ namespace Proyecto_Final_Papeleria
         }
         public int iniciars(string usuario, string clave)
         {
-            string consulta = "SELECT Id FROM USUARIOS WHERE NOMBRE = @usuario AND CONTRASENA = @clave";
+            string consulta = "SELECT Id FROM USUARIOS WHERE USUARIO = @usuario AND CONTRASENA = @clave";
             OleDbCommand iniciars = new OleDbCommand(consulta, conn);
             iniciars.Parameters.AddWithValue("@usuario", usuario);
             iniciars.Parameters.AddWithValue("@clave", clave);
@@ -74,12 +74,13 @@ namespace Proyecto_Final_Papeleria
                 return -1;
             }
         }
-        public int crearusuario(string usuario, string clave, int tipo)
+        public int crearusuario(string usuario, string clave, string nombre, int tipo)
         {
-            string consulta = "INSERT INTO USUARIOS (NOMBRE, CONTRASENA, TIPO) VALUES (@usuario, @clave, @tipo)";
+            string consulta = "INSERT INTO USUARIOS (USUARIO, NOMBRE, CONTRASENA, TIPO) VALUES (@usuario, @nombre, @clave, @tipo)";
             OleDbCommand crearusuario = new OleDbCommand(consulta, conn);
             crearusuario.Parameters.AddWithValue("@usuario", usuario);
             crearusuario.Parameters.AddWithValue("@clave", clave);
+            crearusuario.Parameters.AddWithValue("@nombre", nombre);
             crearusuario.Parameters.AddWithValue("@tipo", tipo);
             conn.Open();
             if (crearusuario.ExecuteNonQuery() > 0)
@@ -116,6 +117,17 @@ namespace Proyecto_Final_Papeleria
             conn.Close();
             if (cant > 0) return 1;
             else return 0;
+        }
+        public string consultaru(int id, string columna)
+        {
+            string consulta = $"SELECT {columna} FROM USUARIOS WHERE Id = @id";
+            OleDbCommand consultar = new OleDbCommand( consulta, conn);
+            consultar.Parameters.AddWithValue("@id", id);
+            conn.Open();
+            object campo = consultar.ExecuteScalar();
+            conn.Close();
+            if (campo != null) return campo.ToString();
+            else return "";
         }
         private void btncontinuar_Click(object sender, EventArgs e)
         {

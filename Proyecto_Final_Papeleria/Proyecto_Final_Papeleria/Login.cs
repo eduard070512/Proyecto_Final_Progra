@@ -62,18 +62,17 @@ namespace Proyecto_Final_Papeleria
             else
             {
                 int id;
-                if (Chkadmin.Checked) id = inicio.crearusuario(txtusuario.Text, txtcontrasena.Text, 1);
-                else id = inicio.crearusuario(txtusuario.Text, txtcontrasena.Text, 0);
+                if (Chkadmin.Checked) id = inicio.crearusuario(txtusuario.Text, txtnombre.Text,  txtcontrasena.Text, 1);
+                else id = inicio.crearusuario(txtusuario.Text, txtcontrasena.Text, txtnombre.Text, 0);
                 if (id == -1) MessageBox.Show("No se pudo guardar el usuario", "ERROR");
                 else
                 {
                     inicio.presiono = 0;
                     this.Close();
-                    menu menu = new menu(id,inicio,txtusuario.Text);
+                    menu menu = new menu(id,inicio,txtusuario.Text, txtnombre.Text);
                     menu.StartPosition = FormStartPosition.Manual;
                     menu.Location = new Point(this.Location.X, this.Location.Y);
                     menu.Show();
-
                 }
             }
         }
@@ -88,7 +87,5 @@ namespace Proyecto_Final_Papeleria
                 cerrar.ShowDialog();
             }
         }
-
-        
     }
 }

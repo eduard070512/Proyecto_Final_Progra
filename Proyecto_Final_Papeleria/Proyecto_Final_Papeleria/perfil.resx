@@ -121,7 +121,7 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAfftAAH37QHOK5WgAAAAB3RJ
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAffsAAH37AEcbHdEAAAAB3RJ
         TUUH5gIVDhMtP2CWHwAAB4RJREFUeF7dm2WoLVUUgK+BimIXoiB2oIjYhfjH/KGiYoBd2IWCiordgYoo
         KhjPDjDA+mFgK4rdYovdnd93uHNZd98558zdM3PPeW/BB+/Nmdl7r5m996p9R1qUmWA+WB/2hjPhYXgb
         PoKf4Z9R/PfH4G+PwrmwL2wI84NtTTeyAGwKp8Pj8DX8Bf9NEp/5Bp4AX95msCAMpcwMy8IR8CT8CmVK
@@ -155,6 +155,21 @@
         cCza+SnNZmshDKH7/dlcW9inOUfd28oeXhtiEGJq3YBkKl6EffiHk0aABjZT+tW7iUlKX4TZIbMtbaTH
         bPMZMCYxd5H7dwuti9PRQ4geSzPzarU3Z6/wmeKPp60s22Zru3sb4tTUdFrt9TSWVRgrM+YbtCJWZnVV
         pagQ+9tjYCjrSRXz9rbR0jQfGfkfMyD4nzMXRjYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAATr1AAE69QGXCHZXAAAAB3RJ
+        TUUH5wYXBw0Hq57mdwAAAdhJREFUeF7t3D1KA2EUheEobkFcgJVuQMVOCy1U/NmLlbtzBQoqaqfiHwiW
+        dnoucUDCBOfC9829Sd4HXrARQkbOTDImAwAAAAAAAAAAAACJbKj14Y/o05zaUpfqVu2peYWe7KtH9f3b
+        mzpR6MG2elDNk990pzYVKmlm50KNPvlNN4o5qmR0dsb1rg4VCho3O21xAArqMjt/s/PAsbLfQwFdZ8ey
+        y1FOwgV5ZofL0IKYnWDMTiBmJwizE4zZCcTsBLH5sCef2QlyoJidIPaX3/XJZ3YKYnaCMTuBmJ0gzE4w
+        ZieQZ3ZeFHeyCvHOzqc6UysT3KpaVgsqnGd2rC/1rF4nOLsXfa4WVSjP7Exb12pJhfDOzjQWegB21JNq
+        e2CzEgcguNADYHbVlWp7cLNQ+AEwdh7oeoNl2kpxAIznFqPFZWgFnjn6UKeq7QXOpJTqhVjDM0f2VsSR
+        QmGeObJ3QnkzrgLPHPEhi0o8c8QNmUqYowSYowSYowSYowSYowSYowSYowSYowSYowSYowSYowSYowSY
+        owSYowQ8c8TX1VTSdY44ABX9N0d2HuDDHZWNmyM+3NGj0TniMjSAzZH9J9q9YnaC2FcXrw1/BAAAAAAA
+        AAAAAJDdYPAD5p8EpQiS/jYAAAAASUVORK5CYII=
 </value>
   </data>
 </root>

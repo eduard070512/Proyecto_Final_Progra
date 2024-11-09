@@ -42,6 +42,7 @@
             this.lbltituloi = new System.Windows.Forms.Label();
             this.pnltitulo = new System.Windows.Forms.Panel();
             this.Pbusuario = new System.Windows.Forms.PictureBox();
+            this.pnlperfil = new System.Windows.Forms.Panel();
             this.pnlnavbar.SuspendLayout();
             this.pnltitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbusuario)).BeginInit();
@@ -137,7 +138,7 @@
             this.lblintroduccion.AutoSize = true;
             this.lblintroduccion.BackColor = System.Drawing.Color.Transparent;
             this.lblintroduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblintroduccion.Location = new System.Drawing.Point(145, 148);
+            this.lblintroduccion.Location = new System.Drawing.Point(145, 144);
             this.lblintroduccion.Name = "lblintroduccion";
             this.lblintroduccion.Size = new System.Drawing.Size(632, 175);
             this.lblintroduccion.TabIndex = 3;
@@ -160,7 +161,7 @@
             this.lbltituloi.AutoSize = true;
             this.lbltituloi.BackColor = System.Drawing.Color.Transparent;
             this.lbltituloi.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltituloi.Location = new System.Drawing.Point(168, 70);
+            this.lbltituloi.Location = new System.Drawing.Point(166, 70);
             this.lbltituloi.Name = "lbltituloi";
             this.lbltituloi.Size = new System.Drawing.Size(481, 56);
             this.lbltituloi.TabIndex = 2;
@@ -190,6 +191,16 @@
             this.Pbusuario.TabStop = false;
             this.Pbusuario.Click += new System.EventHandler(this.Pbusuario_Click);
             // 
+            // pnlperfil
+            // 
+            this.pnlperfil.BackColor = System.Drawing.Color.Transparent;
+            this.pnlperfil.Location = new System.Drawing.Point(500, -1);
+            this.pnlperfil.Name = "pnlperfil";
+            this.pnlperfil.Size = new System.Drawing.Size(202, 426);
+            this.pnlperfil.TabIndex = 2;
+            this.pnlperfil.Leave += new System.EventHandler(this.pnlperfil_Leave);
+            this.pnlperfil.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlperfil_MouseDown);
+            // 
             // menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -200,6 +211,7 @@
             this.Controls.Add(this.pnltitulo);
             this.Controls.Add(this.pnlnavbar);
             this.Controls.Add(this.lblintroduccion);
+            this.Controls.Add(this.pnlperfil);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -208,6 +220,8 @@
             this.Text = "menu";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.menu_FormClosing);
             this.Load += new System.EventHandler(this.menu_Load);
+            this.Click += new System.EventHandler(this.menu_Click);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.menu_MouseDown);
             this.pnlnavbar.ResumeLayout(false);
             this.pnltitulo.ResumeLayout(false);
             this.pnltitulo.PerformLayout();
@@ -232,5 +246,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        public System.Windows.Forms.Panel pnlperfil;
     }
 }

@@ -43,12 +43,13 @@ namespace Proyecto_Final_Papeleria
                 if (id == -1) inicio.errores(3, lblvalidarn);
                 else
                 {
-                    menu menu = new menu(id,inicio,txtusuario.Text);
+                    inicio.presiono = 0;
+                    string nombre = inicio.consultaru(id, "NOMBRE");
+                    menu menu = new menu(id,inicio,txtusuario.Text, nombre);
+                    this.Close();
                     menu.StartPosition = FormStartPosition.Manual;
                     menu.Location = new Point(this.Location.X, this.Location.Y);
                     menu.Show();
-                    inicio.presiono = 0;
-                    this.Close();
                 }
             }
 
@@ -72,7 +73,5 @@ namespace Proyecto_Final_Papeleria
                 cerrar.ShowDialog();
             }
         }
-
-        
     }
 }
